@@ -168,7 +168,7 @@ validate before you trust*:
   re-asks the model rather than accepting malformed data, and falls back to a
   deterministic check only after the retry budget is spent. Malformed model output is
   a retryable error, not a crash. (Adopted from the `reference/docex-app-main` best
-  practices; see CHANGELOG 0.6.0.)
+  practices.)
 
 **What I deliberately did *not* add** (judgment — the brief penalises unjustified
 complexity): **tenacity** (our hand-rolled backoff is already equivalent, and one
