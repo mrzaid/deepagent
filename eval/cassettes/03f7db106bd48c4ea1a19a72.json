@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_evhiCI7FyO0gLbmvXnYGdnlH",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3673,
+    "completion_tokens": 39,
+    "total_tokens": 3712
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "content": "Climeworks uses solid-sorbent direct air capture (DAC): modular collectors pull CO\u2082 from ambient air, then heat and/or vacuum release it for permanent geological storage. A key 2024 milestone was inaugurating Mammoth in Iceland, currently the world\u2019s largest DAC plant, designed to capture up to 36,000 tons of CO\u2082 per year and already delivering Puro Standard\u2013certified carbon removal. Another major step was the public reveal of its Generation 3 DAC technology, which uses novel structured sorbents to roughly halve energy use per ton versus Gen 2 and underpins the planned megaton-scale Project Cypress hub in Louisiana.",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 2191,
+    "completion_tokens": 140,
+    "total_tokens": 2331
+  }
+}

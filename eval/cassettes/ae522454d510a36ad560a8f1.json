@@ -1,0 +1,9 @@
+{
+  "content": "The article states that Rust generally outperforms Go in CPU\u2011bound and high\u2011throughput scenarios, often showing ~2x speedups and lower tail latency, while Go is \u201cmore than adequate\u201d and competitive in typical I/O\u2011bound web workloads, especially when the bottleneck is network or disk. Rust\u2019s ownership model eliminates data races, use\u2011after\u2011free, and many memory bugs at compile time and yields significantly lower memory usage (often 2\u20134x less RAM than Go services), plus deterministic resource cleanup\u2014benefits that matter for latency\u2011sensitive and large\u2011scale deployments. Go\u2019s concurrent garbage collector and goroutines make concurrency and memory management much simpler to use, at the cost of GC overhead and less predictable pauses, but with a very approachable learning curve and fast time\u2011to\u2011productivity. Developer ergonomics are portrayed as a key tradeoff: Rust offers stronger guarantees and richer abstractions but a steep learning curve and more complex async/concurrency story, whereas Go emphasizes simplicity, a batteries\u2011included standard library, and extremely straightforward concurrent programming, making it attractive for teams focused on rapid delivery of network services.",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 3920,
+    "completion_tokens": 239,
+    "total_tokens": 4159
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "content": "The article benchmarks a highly concurrent S3 HEAD/LIST workload and finds Go and Rust both vastly outperform Python, with Rust ~30% faster than Go and using ~18% less CPU than Go (and 3x less than Python\u2019s multi-process version). Rust\u2019s async/Tokio model allows spawning a task per key efficiently, while Go must use a bounded worker-pool pattern (goroutines + channels) to avoid TCP port exhaustion and excessive connections. The author notes that Rust\u2019s concurrency model bakes in correctness and memory safety (via the type system and ownership), but is harder to write, whereas Go\u2019s goroutines/channels make concurrent code almost as simple as single-threaded code, at the cost of somewhat lower peak performance and less strict safety guarantees. Overall, for a high-concurrency network service, the case study suggests Rust offers better raw performance and CPU efficiency with strong safety, while Go offers superior developer ergonomics and simpler concurrency patterns.",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 4260,
+    "completion_tokens": 201,
+    "total_tokens": 4461
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_JPMG1VRW8J5TRh7z1tHu5y4l",
+      "name": "record_finding",
+      "args": {
+        "claim": "Tavily is an API that provides web access and retrieval for AI agents, enabling them to ground language models in fresh, structured web data to reduce hallucinations.",
+        "source_url": "https://tavily.com",
+        "quote": "Tavily is an API that provides web access and retrieval for AI agents, letting them ground models in fresh, structured web data to reduce hallucinations."
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2029,
+    "completion_tokens": 99,
+    "total_tokens": 2128
+  }
+}

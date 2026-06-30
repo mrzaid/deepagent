@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_4LXauiUY8FvrMEYkgFDSFzrF",
+      "name": "finish",
+      "args": {
+        "report": "Below is a concise, high-level summary based strictly on the single grounded source currently available in the findings ledger. Because the search budget is exhausted, I cannot add further sources or details beyond what is supported by that source.\n\n---\n\n## What is early-onset Alzheimer\u2019s disease (EOAD)?\n\nEarly-onset Alzheimer\u2019s disease (EOAD) is conventionally defined as Alzheimer\u2019s disease in which symptoms begin before age 65, and it accounts for approximately 5\u201310% of all Alzheimer\u2019s disease cases.[1]\n\nThe one grounded source available is a review article on EOAD that emphasizes its definition and relative frequency; however, the specific findings recorded so far only support the age cutoff and prevalence range.[1]\n\n---\n\n## Limitations of this summary\n\nThe original goal was to describe the most promising treatments currently being researched for EOAD. That requires detailed, up\u2011to\u2011date information on:\n\n- Disease\u2011modifying pharmacologic approaches (e.g., anti\u2011amyloid, anti\u2011tau, neuroinflammation, synaptic/neuronal protection, gene\u2011targeted therapies)\n- Symptomatic and non\u2011pharmacologic interventions (e.g., cognitive training, neuromodulation, lifestyle and psychosocial approaches)\n- Clinical trial evidence, including whether trials specifically enroll or analyze EOAD populations\n\nBecause the research budget is now exhausted and only one source has been fully fetched and logged, I cannot provide a reliable, properly cited overview of specific treatment strategies, drug names, or trial results without over\u2011interpreting or fabricating evidence. Doing so would violate the requirement that every substantive claim be grounded in a fetched and cited source.\n\nAccordingly, this answer is intentionally narrow and only states what is directly supported by the recorded finding.\n\n---\n\n## Sources\n\n[1] Early-onset Alzheimer Disease and Its Variants \u2014 https://pmc.ncbi.nlm.nih.gov/articles/PMC6538053"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2336,
+    "completion_tokens": 432,
+    "total_tokens": 2768
+  }
+}

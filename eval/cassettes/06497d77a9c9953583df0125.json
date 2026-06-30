@@ -1,0 +1,9 @@
+{
+  "content": "The author implemented three high-concurrency workloads (WebSocket chat server, data pipeline with 1M tasks, high-frequency microservice) in both Rust (async) and Go (goroutines) to compare them. Rust\u2019s async runtimes showed better raw throughput and lower latency, especially at very high concurrency, and maintained strong memory safety guarantees via the type system and borrow checker. Go\u2019s goroutines and channels were easier to use, gave more predictable behavior under extreme load, and with production-grade optimizations the performance gap versus Rust narrowed substantially. Overall, the article frames Rust as the performance and safety leader, and Go as the more ergonomic and operationally predictable choice for high-concurrency services.",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 323,
+    "completion_tokens": 148,
+    "total_tokens": 471
+  }
+}

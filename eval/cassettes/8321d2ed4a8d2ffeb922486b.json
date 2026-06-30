@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Multiple detailed claims about performance, uptime (\\\"hundreds of millions of monthly requests\\\", \\\"99.99% uptime\\\"), caching/indexing, security/privacy specifics, ecosystem integrations, and rate limits are made but the provided ledger items do not contain any supporting quotes for these specifics.\", \"fix\": \"Either add ledger items with quotes that explicitly mention these performance, reliability, security, integration, and rate\u2011limit details, or remove/soften those unsupported specifics.\"}, {\"problem\": \"Specific pricing tier names and dollar amounts (Project $30/4,000 credits; Bootstrap $100/15,000; Startup $220/38,000; Growth $500/100,000) are asserted, but the only pricing ledger quote is high\u2011level and does not mention any of these plan names or prices.\", \"fix\": \"Add a ledger item quoting the pricing page that lists these plan names, prices, and credit amounts, or omit the granular tier breakdown.\"}, {\"problem\": \"Claims about plan management (upgrading/changing plans any time via Billing page with pro\u2011rated changes) and support levels (e.g., email support on specific tiers) are not backed by any ledger quote.\", \"fix\": \"Provide ledger evidence that explicitly describes plan change mechanics and included support, or remove those details.\"}, {\"problem\": \"The section on usage and rate limits (100 rpm dev keys, 1,000 rpm prod keys, separate crawl limit) relies on a source [5] that has no corresponding ledger item or quote.\", \"fix\": \"Add a ledger item with a quote from the rate\u2011limits help article that states these numeric limits, or delete/qualify the rate\u2011limit section.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 2229,
+    "completion_tokens": 368,
+    "total_tokens": 2597
+  }
+}

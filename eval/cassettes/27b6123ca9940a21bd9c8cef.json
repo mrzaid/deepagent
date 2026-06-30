@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Checklist item 'Jurisdiction-specific rules checked (anti-indemnity, retainage, prompt payment, prevailing wage)' is not satisfied or addressed in the draft.\", \"fix\": \"Add an explicit statement that jurisdiction-specific rules (anti-indemnity, retainage, prompt payment, prevailing wage) have been reviewed or are to be confirmed by counsel.\"}, {\"problem\": \"Checklist item 'Flow-down obligations verified for subcontractor agreements' is not explicitly satisfied.\", \"fix\": \"Insert a short clause confirming that any required flow-downs to subcontractor agreements have been or will be verified by counsel.\"}, {\"problem\": \"Checklist item 'NNN maintenance matrix populated; structural repairs not shifted to tenant without instruction' is not fully satisfied; the draft only states no modification without confirming matrix population.\", \"fix\": \"Add language confirming that the NNN/maintenance matrix has been reviewed/populated and that structural repair obligations are unchanged and not shifted to Tenant.\"}, {\"problem\": \"Checklist item 'ADS fixed defaults applied and Pakistan labour law compliance table checked (Pipeline G only)' is not addressed.\", \"fix\": \"Include a brief note that ADS fixed defaults and the Pakistan labour law compliance table are not applicable or will be confirmed if Pipeline G applies.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 2543,
+    "completion_tokens": 273,
+    "total_tokens": 2816
+  }
+}

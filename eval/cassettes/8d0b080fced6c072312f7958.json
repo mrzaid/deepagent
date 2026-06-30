@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_bW8H82Qv2jn0iuNGYzH4WTD6",
+      "name": "web_search",
+      "args": {
+        "query": "\"Introducing GPT-4.1\" OpenAI context window 1 million tokens",
+        "commentary": true
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3473,
+    "completion_tokens": 43,
+    "total_tokens": 3516
+  }
+}

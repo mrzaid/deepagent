@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_Ry6w7b979u7TRh6GdZaN3UpI",
+      "name": "web_search",
+      "args": {
+        "query": "scientific consensus on cold fusion experiments no practical energy production"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1701,
+    "completion_tokens": 33,
+    "total_tokens": 1734
+  }
+}

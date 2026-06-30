@@ -1,0 +1,9 @@
+{
+  "content": "Tavily is a set of APIs built for AI agents, centered on web search and data extraction for workflows like RAG. It offers three main APIs: Search (AI-focused search with scraping and optional LLM-generated responses), Extract (scrape up to 20 URLs per call), and Crawl (map and crawl domains). Key features of the Search API include customizable search depth and domains, full-page content extraction, real-time results, easy integration (Python, JS, LangChain, LlamaIndex), and enterprise-grade security (SOC 2, zero data retention, scalability). Pricing includes a Free tier (1,000 credits/month), Pay-as-you-go at $0.008/credit, monthly plans at $0.0075\u2013$0.005/credit, and custom enterprise pricing, with pro-rated upgrades and downgrades applied at the next billing cycle.",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 799,
+    "completion_tokens": 186,
+    "total_tokens": 985
+  }
+}

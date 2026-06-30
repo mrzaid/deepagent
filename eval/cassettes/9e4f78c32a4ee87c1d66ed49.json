@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Checklist items about market-standard benchmarks, jurisdiction-specific rules, flow-down obligations, NNN matrix, ADS defaults, and Pakistan labour law are not addressed or confirmed as checked; the draft even states such items are not addressed.\", \"fix\": \"Explicitly state that these checklist items have not been applied/verified and cannot be satisfied given the lack of underlying data, or revise the draft to confirm each item has been addressed.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 3487,
+    "completion_tokens": 107,
+    "total_tokens": 3594
+  }
+}

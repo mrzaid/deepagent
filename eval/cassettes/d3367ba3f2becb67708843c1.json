@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Evidence ledger is empty, but the draft makes multiple substantive assertions about \\\"market-standard\\\" NDA practice and risk (e.g., typical term lengths, survival periods, and characterizing the clause as strongly recipient-favorable) without any supporting ledger items.\", \"fix\": \"Either add ledger items supporting these market-standard characterizations or rephrase as neutral drafting options without asserting what is typical.\"}, {\"problem\": \"The SKILL validation checklist items (jurisdiction-specific rules, flow-down for subcontractor agreements, NNN matrix, ratification clause, ADS/Pakistan labour law) are simply listed in the instructions but not addressed or explicitly marked [BLANK]/[TBD] in the draft.\", \"fix\": \"Explicitly state that these checklist items are not applicable to this NDA clause or mark them as [TBD]/[BLANK] as required by the checklist.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 2333,
+    "completion_tokens": 198,
+    "total_tokens": 2531
+  }
+}

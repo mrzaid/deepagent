@@ -1,0 +1,41 @@
+{
+  "kind": "search",
+  "key": "\"Introducing GPT-4.1\" OpenAI context window 1 million tokens|5",
+  "value": [
+    {
+      "url": "https://www.linkedin.com/posts/kyle-bahr_heres-the-big-issue-with-gpt-41s-1m-token-activity-7317669992823508995-XSVN",
+      "title": "Here's the big issue with GPT-4.1's 1M token context window: - Yes, it's a bigger haystack. - But GPT-4.1 only finds the needles half the time, if that. To OpenAI's credit, they write extensively\u2026 | Kyle Bahr",
+      "content": "Here's the big issue with GPT-4.1's 1M token context window: - Yes, it's a bigger haystack. \ud83d\ude80 Introducing\u00a0\ud835\uddda\ud835\udde3\ud835\udde7-\ud835\udff0.\ud835\udfed: OpenAI has unveiled GPT-4.1, the successor to GPT-4o, marking significant advancements in AI performance and efficiency... \ud83d\udd0d \ud835\uddde\ud835\uddf2\ud835\ude06 \ud835\uddd8\ud835\uddfb\ud835\uddf5\ud835\uddee\ud835\uddfb\ud835\uddf0\ud835\uddf2\ud835\uddfa\ud835\uddf2\ud835\uddfb\ud835\ude01\ud835\ude00 \ud835\udde2\ud835\ude03\ud835\uddf2\ud835\uddff \ud835\uddda\ud835\udde3\ud835\udde7-\ud835\udff0\ud835\uddfc: \u00a0\u2022 Expanded Context Window: GPT-4.1 can process up to \ud835\udfed \ud835\uddfa\ud835\uddf6\ud835\uddf9\ud835\uddf9\ud835\uddf6\ud835\uddfc\ud835\uddfb \ud835\ude01\ud835\uddfc\ud835\uddf8\ud835\uddf2\ud835\uddfb\ud835\ude00, a substantial increase from GPT-4o's 128,000-token limit. \u2022 Superior Coding Proficiency: Achieving a \ud835\udff1\ud835\udff0.\ud835\udff2% \ud835\ude00\ud835\uddf0\ud835\uddfc\ud835\uddff\ud835\uddf2 \ud835\uddfc\ud835\uddfb \ud835\udde6\ud835\uddea\ud835\uddd8-\ud835\uddef\ud835\uddf2\ud835\uddfb\ud835\uddf0\ud835\uddf5 \ud835\udde9\ud835\uddf2\ud835\uddff\ud835\uddf6\ud835\uddf3\ud835\uddf6\ud835\uddf2\ud835\uddf1, GPT-4.1 outperforms GPT-4o by 21%, making it a powerful tool for software development tasks. \u2022 Improved Visual Understanding: \ud835\uddda\ud835\udde3\ud835\udde7-\ud835\udff0.\ud835\udfed \ud835\uddf2\ud835\ude05\ud835\uddf0\ud835\uddf2\ud835\uddf9\ud835\ude00 \ud835\uddf6\ud835\uddfb \ud835\uddfa\ud835\ude02\ud835\uddf9\ud835\ude01\ud835\uddf6\ud835\uddfa\ud835\uddfc\ud835\uddf1\ud835\uddee\ud835\uddf9 \ud835\ude01\ud835\uddee\ud835\ude00\ud835\uddf8\ud835\ude00, showing better performance in interpreting images, charts, and videos compared to its predecessor.Analytics Vidhya \u00a0\u2022 Increased Efficiency: Offering up to \ud835\udfee\ud835\udff2% \ud835\uddf0\ud835\uddfc\ud835\ude00\ud835\ude01 \ud835\uddff\ud835\uddf2\ud835\uddf1\ud835\ude02\ud835\uddf0\ud835\ude01\ud835\uddf6\ud835\uddfc\ud835\uddfb \ud835\uddee\ud835\uddfb\ud835\uddf1 \ud835\udff0\ud835\udfec% \ud835\uddf3\ud835\uddee\ud835\ude00\ud835\ude01\ud835\uddf2\ud835\uddff \ud835\uddff\ud835\uddf2\ud835\ude00\ud835\uddfd\ud835\uddfc\ud835\uddfb\ud835\ude00\ud835\uddf2 \ud835\ude01\ud835\uddf6\ud835\uddfa\ud835\uddf2\ud835\ude00 \ud835\ude01\ud835\uddf5\ud835\uddee\ud835\uddfb \ud835\uddda\ud835\udde3\ud835\udde7-\ud835\udff0\ud835\uddfc, GPT-4.1 delivers enhanced performance at a lower operational cost. GPT-4.1 represents a \ud835\ude00\ud835\uddf6\ud835\uddf4\ud835\uddfb\ud835\uddf6\ud835\uddf3\ud835\uddf6\ud835\uddf0\ud835\uddee\ud835\uddfb\ud835\ude01 \ud835\ude00\ud835\ude01\ud835\uddf2\ud835\uddfd \ud835\uddf3\ud835\uddfc\ud835\uddff\ud835\ude04\ud835\uddee\ud835\uddff\ud835\uddf1 in AI development, offering enhanced capabilities for professionals across various industries. ## Sign in to view more content.",
+      "score": 0.92604345,
+      "raw_content": null
+    },
+    {
+      "url": "https://medium.com/@ishanasabrish78/key-upgrades-in-gpt-4-1-8e8b5b3b0fd1",
+      "title": "Key Upgrades in GPT-4.1. 1. Massive Context Window - Medium",
+      "content": "GPT-4.1 introduces an unprecedented context window of up to 1 million tokens, a substantial increase from GPT-4o's 128,000-token limit.",
+      "score": 0.9100432,
+      "raw_content": null
+    },
+    {
+      "url": "https://trickle.so/blog/inside-gpt-4-1-technical-analysis",
+      "title": "Inside GPT-4.1: Technical Analysis Reveals Unexpected AI ... - Trickle",
+      "content": "# Inside GPT-4.1: Technical Analysis Reveals Unexpected AI Breakthroughs. Hero Image for Inside GPT-4.1: Technical Analysis Reveals Unexpected AI Breakthroughs. GPT-4.1 handles an incredible 1 million tokens in one context window. This allows it to understand more than 750,000 words of text - about 3,000 pages. The OpenAI GPT-4.1 release shows remarkable improvements in many benchmarks. The model reached 54.6% accuracy on the SWE-bench Verified coding challenge, which is 26.6% better than GPT-4o. It also scored 38.3% on Scale AI's MultiChallenge benchmark for instruction-following - a 10.5 percentage point improvement from its predecessor. Maybe even more impressive is this AI's ability to maintain 100% accuracy throughout its full context length. GPT-4.1's lineup includes three distinct variants: GPT-4.1, GPT-4.1 Mini, and GPT-4.1 Nano. The model achieved 54.6% on SWE-bench (Verified), which is a big deal as it means that it's 21.4 percentage points better than GPT-4o. This improved architecture powers all three variants\u2014GPT-4.1, GPT-4.1 Mini, and GPT-4.1 Nano\u2014each tailored for specific performance needs.",
+      "score": 0.9037116,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.facebook.com/groups/aifire.co/posts/1693078557964113",
+      "title": "OpenAI releases GPT-4.1 with 1 million token context window",
+      "content": "Here's what's new: \u2e3b What's New in GPT-4.1? \u2713 1 Million Token Context Window That's right \u2013 a massive jump from GPT-4o's 128K tokens! Perfect",
+      "score": 0.8965509,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.reddit.com/r/OpenAI/comments/1l236t2/has_anyone_confirmed_that_gpt41_has_a_1_million",
+      "title": "Has anyone confirmed that GPT-4.1 has a 1 million token context ...",
+      "content": "According to the description on OpenAI's website, GPT-4.1 and GPT-4.1-mini both have a context window length of 1 million tokens.",
+      "score": 0.8729662,
+      "raw_content": null
+    }
+  ]
+}

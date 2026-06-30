@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Attorney-review disclaimer is included only at the end, but checklist requires it at the top of the output.\", \"fix\": \"Move or duplicate the attorney-review disclaimer to the very top of the letter before any substantive content.\"}, {\"problem\": \"ADS fixed defaults are referenced in the goal and checklist but not explicitly identified or confirmed as applied anywhere in the draft.\", \"fix\": \"Add a short clause stating that ADS fixed defaults have been applied, or explicitly list them where relevant (e.g., hours, leave, probation, notice).\"}, {\"problem\": \"Pakistan labour law compliance table (Pipeline G requirement) is not present.\", \"fix\": \"Append a brief Pakistan labour law compliance table mapping key clauses (hours, leave, termination, benefits) to statutory requirements.\"}, {\"problem\": \"Checklist items about jurisdiction-specific rules (anti-indemnity, retainage, prompt payment, prevailing wage), flow-down obligations, NNN maintenance, and ratification clause are not addressed at all.\", \"fix\": \"Add a short statement confirming these items are not applicable to this employment offer or, if required by the pipeline, include minimal clauses/notes addressing each checklist point.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 3720,
+    "completion_tokens": 257,
+    "total_tokens": 3977
+  }
+}

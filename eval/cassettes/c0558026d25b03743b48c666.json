@@ -1,0 +1,19 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_EKh7twNfv4YGKZAiUiK2mlV7",
+      "name": "record_finding",
+      "args": {
+        "claim": "Climeworks uses solid-sorbent direct air capture (DAC) technology in which modular collectors draw CO\u2082 from ambient air and then apply heat and/or vacuum to release the captured CO\u2082 for permanent geological storage.",
+        "source_url": "https://climeworks.com/news/2024-year-in-review",
+        "quote": "Climeworks\u2019 direct air capture technology uses modular CO\u2082 collectors filled with a solid sorbent material to capture CO\u2082 directly from ambient air. Once saturated, the collectors are heated and/or exposed to a vacuum to release high-purity CO\u2082, which is then permanently stored underground."
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1902,
+    "completion_tokens": 143,
+    "total_tokens": 2045
+  }
+}

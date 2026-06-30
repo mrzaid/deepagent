@@ -1,0 +1,34 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_FUgQ6A2ls0szHNKjviu1VWxu",
+      "name": "update_plan",
+      "args": {
+        "steps": [
+          {
+            "text": "Review the ADS offer-letter-standard guidance in the ADS Documents reference and extract required structure, mandatory clauses, and fixed defaults (including Pakistan-labour-law-specific requirements).",
+            "status": "active"
+          },
+          {
+            "text": "Draft the full ADS standard employment offer letter for Sara Khan as a Data Analyst, inserting ADS fixed defaults and marking all unspecified variables (start date, compensation, reporting line, etc.) as [BLANK].",
+            "status": "pending"
+          },
+          {
+            "text": "Cross-check the draft against the ADS offer-letter checklist / hardened validation items (placeholders, jurisdiction, governing law, at-will or local-equivalent language, IP/confidentiality references, disclaimer).",
+            "status": "pending"
+          },
+          {
+            "text": "Prepare the final attorney-review-ready markdown version of the offer letter, ensuring the attorney-review disclaimer is included and formatting is clean.",
+            "status": "pending"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1973,
+    "completion_tokens": 189,
+    "total_tokens": 2162
+  }
+}

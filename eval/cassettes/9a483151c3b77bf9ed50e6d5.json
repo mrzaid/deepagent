@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"No evidence ledger items are provided, so the claim that ADS fixed defaults and Pakistan labour law have been applied is unsupported.\", \"fix\": \"Either add ledger items showing what the ADS fixed defaults and Pakistan labour law requirements are, or remove/soften references to having applied them.\"}, {\"problem\": \"Checklist item 'ADS fixed defaults applied and Pakistan labour law compliance table checked (Pipeline G only)' is not satisfied; there is no explicit compliance table or reference to it.\", \"fix\": \"Insert a brief Pakistan labour law compliance table/section or explicit statement that such a table has been checked, consistent with ADS defaults.\"}, {\"problem\": \"Checklist item 'NNN maintenance matrix populated; structural repairs not shifted to tenant without instruction' is not met; there is no NNN maintenance matrix and no discussion of maintenance/structural repairs allocation.\", \"fix\": \"Add a short NNN maintenance matrix section or confirm that it is not applicable in this employment context and adjust the checklist reference accordingly.\"}, {\"problem\": \"Checklist item 'Flow-down obligations verified for subcontractor agreements' is only partially addressed; while flow-down obligations are mentioned, there is no indication of verification against any upstream terms.\", \"fix\": \"Clarify that flow-down obligations will mirror and comply with applicable client contracts, or reference a separate verification process/policy.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 3899,
+    "completion_tokens": 291,
+    "total_tokens": 4190
+  }
+}

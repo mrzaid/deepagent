@@ -1,0 +1,41 @@
+{
+  "kind": "search",
+  "key": "Rust vs Go memory safety data races race detector borrow checker ownership concurrency|5",
+  "value": [
+    {
+      "url": "https://lobste.rs/s/d5ytly/rust_vs_go_why_they_re_better_together",
+      "title": "Rust vs. Go: Why They\u2019re Better Together | Lobsters",
+      "content": "The article treats Go and Rust as on equal footing when it comes to safety. This is quite wrong, unless \"safety\" refers only to memory safety: Rust is far safer than Go in general, for a number of reasons: algebraic data types with exhaustive pattern matching, the borrow checker for statically preventing data races, the ability to use RAII-like patterns to free resources automatically when they go out of scope, better type safety due to generics, etc. On the other hand, if you do think about memory safety, it's not quite so clear cut. In Go, I can create a cyclic data structure without using the `Unsafe` package and the GC will correctly collect it for me. In Rust, I must use `unsafe` (or a standard-library crate such as `RC` that uses `unsafe` internally) to create it, and clean it up. I now have a slice whose bounds are larger than the underlying object and I can violate all of the memory-safety invariants without writing a single line of code using the `Unsafe` package.",
+      "score": 0.7969415,
+      "raw_content": null
+    },
+    {
+      "url": "https://medium.com/@kanishks772/go-just-killed-rusts-only-advantage-and-nobody-s-talking-about-it-0d5fc550f355",
+      "title": "Go Just Killed Rust's Only Advantage (And Nobody's Talking About It)",
+      "content": "Rust's main selling point is compile-time memory safety through its borrow checker. The system enforces ownership rules that prevent data races,",
+      "score": 0.74807674,
+      "raw_content": null
+    },
+    {
+      "url": "https://blog.jetbrains.com/rust/2025/06/12/rust-vs-go",
+      "title": "Rust vs Go: Which One to Choose in 2025 - The JetBrains Blog",
+      "content": "# Rust vs Go: Which One to Choose in 2025. The programming landscape continues to evolve, bringing forward languages like Rust and Go that not only challenge traditional paradigms but also cater to the sophisticated needs of modern computing. Rust celebrated a remarkable milestone by setting a usage record among the year\u2019s most popular languages and boasted a user base of approximately 2.27 million developers, with 709,000 using it as their primary language. The choice between Rust and Go is pivotal and should be made with a thorough understanding of each language\u2019s strengths and suitability to project requirements \u2013 whether it concerns performance, ease of use, or concurrent programming. The core philosophy behind Rust is to provide memory safety without using garbage collection and to support concurrency without data races. Its ability to ensure memory safety and concurrency makes it an excellent choice for developing reliable and high-performance system-level software.",
+      "score": 0.7106489,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=R-Z4Hn_6I0U",
+      "title": "Defending Against Memory Breaches: Exploring Rust and Go's Safety Mechanisms",
+      "content": "Defending Against Memory Breaches: Exploring Rust and Go's Safety Mechanisms\nArdan Labs\n18300 subscribers\n56 likes\n1634 views\n12 Apr 2024\n-Welcome to the Rust: Safe at Any Speed mini series, Episode 1!  A series of short videos on Rust and its diverse advantages when it comes to speed and security. Watch now to learn about Memory Safety, Avoiding Vulnerabilities with Clear intent, Data Races and how Rust keeps your data safe!\n\n In this episode, we delve into the memory safety challenges faced in languages like C and C++, where buffer overflows are prevalent due to the lack of bounds checking. Witness how languages like Rust and Go have revolutionized memory safety, providing robust safety mechanisms by default. Furthermore, explore Rust's approach to performance optimization, where developers have the flexibility to opt-out of safety features for critical performance gains.\n\n  Whether you're a seasoned developer or just starting your journey, this episode offers invaluable insights into mastering memory safety and building reliable software systems. Tune in now to embark on a journey toward safer and more efficient programming practices!\n\n\nThings you will learn in this video:\n- Importance of memory safety in programming languages\n- Challenges posed by buffer overflows and security breaches\n- Evolution of memory safety features in languages like Rust and Go\n\n\n----\n\nThe clips from this series are from our October 2024 YouTube Live-Stream, 'Rust: Safe At Any Speed', with instructor Herbert Wolverson. \n----\n\nWhat are your thoughts on addressing memory safety challenges in programming languages like C and C++? \n \nShare your experiences and solutions in the comments below!\nComment below or tweet us on twitter & let us know your thoughts, we want to hear from you!  ~  If you found this video helpful, hit that like button & subscribe for more content like this.\n\n----\n\nAccess our online courses \u2192 https://www.ardanlabs.com/education/\n\nAttending a live training \u2192 https://www.ardanlabs.com/live-training-events/\n\nOther Links:\nWebsite: https://www.ardanlabs.com/\nGithub: https://github.com/ardanlabs\nTwitter: https://twitter.com/ardanlabs\n\n#rust #rustprogramming #education #tutorials #tips\n2 comments\n",
+      "score": 0.614464,
+      "raw_content": null
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=13277165",
+      "title": "Go doesn't protect you against race conditions, it merely offers some ...",
+      "content": "Go doesn't protect you against race conditions, it merely offers some concurrency tools. There is nothing to declare ownership of objects in memory.",
+      "score": 0.5617203,
+      "raw_content": null
+    }
+  ]
+}

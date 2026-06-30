@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_PTd8r6SQfTzbk0BHgKSwvNWR",
+      "name": "web_search",
+      "args": {
+        "query": "Context windows - Claude Platform Docs"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2812,
+    "completion_tokens": 28,
+    "total_tokens": 2840
+  }
+}

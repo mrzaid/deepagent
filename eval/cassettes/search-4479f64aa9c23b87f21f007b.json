@@ -1,0 +1,41 @@
+{
+  "kind": "search",
+  "key": "Tavily API pricing usage limits rate limits overage|5",
+  "value": [
+    {
+      "url": "https://help.tavily.com/articles/3240802908-rate-limits",
+      "title": "Rate Limits | Tavily Help Center",
+      "content": "# Rate Limits. Tavily offers two types of rate limits, each specific to the environment associated with your API key. These are the **Development** and **Production** environments. Each environment has its own set of rate limits that dictate how many requests can be made per minute. #### **Development Environment**. * The Development environment is designed for testing and development purposes. It allows up to 100 requests per minute, which is ideal for experimenting with API calls and integrating features without impacting your production environment. #### **Production Environment**. * The Production environment is intended for live applications and services. It offers a higher rate limit of 1,000 requests per minute, allowing you to scale your usage as your application goes live and experiences increased traffic. The crawl endpoint has a separate rate limit that applies to both development and production keys:. | Environment | Requests per minute (RPM) |. What is the Tavily Extract API? What is the Tavily Search API?",
+      "score": 0.74563974,
+      "raw_content": null
+    },
+    {
+      "url": "https://docs.tavily.com/documentation/api-credits",
+      "title": "Credits & Pricing - Tavily Docs",
+      "content": "## Documentation Index. Fetch the complete documentation index at: </llms.txt>. Use this file to discover all available pages before exploring further. ## On this page. # Credits & Pricing. Learn how to get and manage your Tavily API Credits. ## \u200b Free API Credits. ## Get your free API key. ## \u200b Pricing Overview. | **Plan** | **Credits per month** | **Monthly price** | **Price per credit** |. | **Project** | 4,000 | $30 | $0.0075 |. | **Bootstrap** | 15,000 | $100 | $0.0067 |. | **Startup** | 38,000 | $220 | $0.0058 |. | **Growth** | 100,000 | $500 | $0.005 |. | **Pay as you go** | Per usage | $0.008 / Credit | $0.008 |. ## \u200b API Credits Costs. ### \u200b Tavily Extract. ### \u200b Tavily Map. ### \u200b Tavily Crawl. ### \u200b Tavily Research. | Request Cost Boundaries | model=pro | model=mini |. | Per-request maximum | 250 credits | 110 credits |.",
+      "score": 0.67269784,
+      "raw_content": null
+    },
+    {
+      "url": "https://docs.tavily.com/documentation/rate-limits",
+      "title": "Rate Limits - Tavily Docs",
+      "content": "Learn about Tavily's API rate limits for both development and production environments. ... We offer two types of rate limits based on the environment associated",
+      "score": 0.57837737,
+      "raw_content": null
+    },
+    {
+      "url": "https://help.tavily.com/articles/8816424538-pricing",
+      "title": "Pricing - Tavily Help Center",
+      "content": "At Tavily, we offer flexible pricing plans to suit different users, from individual researchers to growing teams and enterprises. Whether you need a free plan to get started or a scalable solution to support your business, we have the right plan for you. * **Who is it for?** New creators and individuals exploring Tavily. * **Who is it for?** Enthusiasts who require more API usage. * **Who is it for?** Small teams that need a scalable search solution. ## **Pay-As-You-Go Plan**. * **Who is it for?** Users who prefer a flexible, usage-based model. If you're just getting started, the **Researcher (Free) plan** is perfect for exploring Tavily\u2019s capabilities. If you require more frequent API usage, the **Project, Bootstrap, Startup, or Growth plans** offer increasing levels of resources. Businesses and teams needing flexibility may prefer the **Pay-As-You-Go** model, while enterprises can work with us to build a **custom solution** that fits their needs. How to Set a Limit for Pay as You Go Option?",
+      "score": 0.52290934,
+      "raw_content": null
+    },
+    {
+      "url": "https://linen.prefect.io/t/26765852/good-evening-guys-controlflow-code-that-works-locally-and-ha",
+      "title": "Good evening guys `controlflow` code that works locally and  Prefect Community #marvin-ai",
+      "content": "`ValueError: Task #b454bc74 (\"Provide a detailed analysis of how similar compani...\") failed: Encountered HTTP 429 errors while trying to fetch data using the Tavily search tool, indicating rate limits have been exceeded. Unable to complete the task due to technical limitations. Finished in state Failed('Task run encountered an exception ValueError: Task #b454bc74 (\"Provide a detailed analysis of how similar compani...\") failed: Encountered HTTP 429 errors while trying to fetch data using the Tavily search tool, indicating rate limits have been exceeded. from langchain_community.tools import TavilySearchResults. description=\"An AI agent that researches the latest trends and performance of any given industry.\",. #model=\"anthropic/claude-3-5-sonnet-20240620\",. tools=[TavilySearchResults(tavily_api_key=Secret.load(\"tavily-api-key\", _sync=True).get())],. ### Task 5. Provide a detailed analysis of how similar companies are faring in the given industry.",
+      "score": 0.43194416,
+      "raw_content": null
+    }
+  ]
+}

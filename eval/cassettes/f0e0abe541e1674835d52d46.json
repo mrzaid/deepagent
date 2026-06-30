@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_qVHgecZs0zjvNdVt0xRbR9S5",
+      "name": "web_search",
+      "args": {
+        "query": "Heirloom carbon removal technology process and recent milestone 2024",
+        "topn": 5
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3260,
+    "completion_tokens": 40,
+    "total_tokens": 3300
+  }
+}

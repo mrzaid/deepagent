@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_Ig9oShCojN36QhceDo3zamAk",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://www.britannica.com/money/SpaceX"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2415,
+    "completion_tokens": 35,
+    "total_tokens": 2450
+  }
+}

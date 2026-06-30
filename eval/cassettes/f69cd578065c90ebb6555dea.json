@@ -1,0 +1,38 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_vt58tiw7OvO3EMUZS8FyMb5M",
+      "name": "update_plan",
+      "args": {
+        "steps": [
+          {
+            "text": "Identify client goals, role (disclosing vs. receiving), and any known business context for the NDA clause under review",
+            "status": "done"
+          },
+          {
+            "text": "Analyze the confidentiality-sharing language (who Recipient may share with, conditions, and controls) from the disclosing party\u2019s perspective and propose protective redlines",
+            "status": "done"
+          },
+          {
+            "text": "Analyze the term/duration and governing law language from the disclosing party\u2019s perspective and propose protective redlines",
+            "status": "done"
+          },
+          {
+            "text": "Run a quick risk/consistency check against the contract-review checklist (ambiguity, one-sidedness, enforceability, missing protections) and refine redlines",
+            "status": "done"
+          },
+          {
+            "text": "Draft the concise written output: issue-spotting summary, specific suggested redlines with explanations, and attorney-review disclaimer, marking any open business points as [CONFIRM WITH CLIENT]",
+            "status": "active"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2330,
+    "completion_tokens": 198,
+    "total_tokens": 2528
+  }
+}

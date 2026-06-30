@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_aHXtLoABBCFTeAFhnaDa3a1F",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://en.wikipedia.org/wiki/Falcon_1"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2208,
+    "completion_tokens": 32,
+    "total_tokens": 2240
+  }
+}

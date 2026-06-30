@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_9X2jW6vv90BrGfjLRXHrA5Mn",
+      "name": "web_search",
+      "args": {
+        "query": "\"Zorblax Institute\""
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1628,
+    "completion_tokens": 29,
+    "total_tokens": 1657
+  }
+}

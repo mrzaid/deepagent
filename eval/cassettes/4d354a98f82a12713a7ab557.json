@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Checklist item \\\"Attorney-review disclaimer included at top of output\\\" is not satisfied; the disclaimer appears near the end, not at the top.\", \"fix\": \"Move or duplicate the attorney-review disclaimer to the very beginning of the document.\"}, {\"problem\": \"Checklist items about jurisdiction-specific rules (anti-indemnity, retainage, prompt payment, prevailing wage) are not addressed anywhere in the draft.\", \"fix\": \"Add a brief clause or review note confirming consideration of Washington-specific rules on anti-indemnity, retainage, prompt payment, and prevailing wage, or state they are not applicable to this NDA.\"}, {\"problem\": \"Checklist item \\\"Flow-down obligations verified for subcontractor agreements\\\" is not addressed.\", \"fix\": \"Add a statement that no subcontractor flow-down obligations are applicable to this NDA, or include a clause if such flow-downs are intended.\"}, {\"problem\": \"Checklist item \\\"NNN maintenance matrix populated; structural repairs not shifted to tenant without instruction\\\" is not addressed.\", \"fix\": \"Explicitly note that NNN/maintenance allocation is not applicable to this NDA, or include the required matrix if somehow relevant.\"}, {\"problem\": \"Checklist item \\\"Ratification clause present for amendments and subleases\\\" is not addressed.\", \"fix\": \"Add a ratification clause or a short note that amendments/subleases are not applicable in this NDA context.\"}, {\"problem\": \"Checklist item \\\"ADS fixed defaults applied and Pakistan labour law compliance table checked (Pipeline G only)\\\" is not addressed.\", \"fix\": \"State explicitly that ADS defaults and Pakistan labour law compliance are not applicable to this NDA, or include them if this is in fact a Pipeline G document.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 3180,
+    "completion_tokens": 366,
+    "total_tokens": 3546
+  }
+}

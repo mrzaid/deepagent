@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_1e74FcHga5ZcoSIPtSx4Orl0",
+      "name": "web_search",
+      "args": {
+        "query": "Charm Industrial carbon removal method bio-oil injection recent milestone 2024 2023",
+        "topn": 5
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2063,
+    "completion_tokens": 44,
+    "total_tokens": 2107
+  }
+}

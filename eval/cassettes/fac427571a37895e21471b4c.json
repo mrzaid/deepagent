@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_LxokZYaukVN31JZ8z7A1PcDj",
+      "name": "web_search",
+      "args": {
+        "query": "Tavily API pricing usage limits rate limits overage",
+        "tool_name": "web_search"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2555,
+    "completion_tokens": 39,
+    "total_tokens": 2594
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Multiple detailed claims about Climeworks milestones (Mammoth capacity, Puro certification, Gen\u20113 energy reduction, link to Project Cypress) are not supported by the single Climeworks ledger quote, which only describes the DAC process.\", \"fix\": \"Remove or explicitly qualify those milestone details unless they are backed by additional ledger items.\"}, {\"problem\": \"The Charm Industrial milestone (5,000 tCO2e removed, customers, date, and \\\"largest permanent carbon\u2011removal delivery\\\" framing) relies on a source [3] that has no corresponding ledger item.\", \"fix\": \"Either add a ledger item for the 5,000 tCO2e milestone or strip the milestone down to what is supported by existing ledger evidence.\"}, {\"problem\": \"All specific descriptions of Heirloom\u2019s technology and its Tracy, California commercial facility and governance model are based on source [4], which has no ledger item.\", \"fix\": \"Add ledger items summarizing Heirloom\u2019s mineral\u2011looping DAC method and the Tracy facility milestone, or remove/soften these claims.\"}, {\"problem\": \"Comparative summary sections (e.g., technology types, deployment context, commercial traction, community governance) synthesize several unsupported specifics from non\u2011ledger sources.\", \"fix\": \"Limit the comparative summary to elements directly supported by existing ledger quotes, or add ledger items for each company covering these aspects.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 1720,
+    "completion_tokens": 308,
+    "total_tokens": 2028
+  }
+}

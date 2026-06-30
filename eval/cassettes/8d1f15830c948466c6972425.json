@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Attorney-review disclaimer is required \\\"at top of output\\\" per checklist but appears as Section 17 near the end, not at the top.\", \"fix\": \"Move or duplicate the attorney-review disclaimer to the very beginning of the document before the title.\"}, {\"problem\": \"Checklist items about \\\"Market-standard benchmarks\\\", \\\"Jurisdiction-specific rules\\\", \\\"Flow-down obligations\\\", \\\"NNN maintenance matrix\\\", \\\"Ratification clause for amendments and subleases\\\", and \\\"ADS fixed defaults / Pakistan labour law\\\" are not addressed or evidenced in the draft.\", \"fix\": \"Add brief clauses or annotations explicitly confirming each checklist item has been considered or is not applicable, or include the required matrices/tables where relevant.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 3273,
+    "completion_tokens": 164,
+    "total_tokens": 3437
+  }
+}

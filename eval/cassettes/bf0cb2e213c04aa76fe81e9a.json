@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Evidence ledger is empty, so the claim that ADS fixed defaults were applied and Pakistan labour law was considered is unsupported.\", \"fix\": \"Either add ledger items showing what the ADS fixed defaults and Pakistan labour law requirements are, or remove/soften those assertions.\"}, {\"problem\": \"Checklist items about market-standard benchmarks, jurisdiction-specific rules, flow-down obligations, NNN matrix, structural repairs, and ratification clause are not addressed anywhere in the draft.\", \"fix\": \"Explicitly state in the draft or an attached section how each checklist item has been considered, or mark them as not applicable with a brief justification.\"}, {\"problem\": \"The checklist requires a ratification clause for amendments and subleases, which is missing from the draft.\", \"fix\": \"Add a short ratification clause confirming that any amendments or sublease-related arrangements must be in writing and ratified by the parties.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 3504,
+    "completion_tokens": 202,
+    "total_tokens": 3706
+  }
+}

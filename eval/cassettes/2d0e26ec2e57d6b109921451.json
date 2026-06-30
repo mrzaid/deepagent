@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_pz6NbjUTwEoEEFZLPs2a0wTS",
+      "name": "web_search",
+      "args": {
+        "query": "cold fusion scientific consensus mainstream view no practical energy production"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1676,
+    "completion_tokens": 32,
+    "total_tokens": 1708
+  }
+}

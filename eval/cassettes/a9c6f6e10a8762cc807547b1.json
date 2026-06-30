@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Most performance, memory-usage, and ergonomics claims (benchmarks, 30% faster, 18% less CPU, 2\u20134\u00d7 less RAM, 2\u00d7 speedups, 2026 survey, specific case studies, tooling comparisons) are not supported by any evidence ledger item.\", \"fix\": \"Either add ledger items with quotes/URLs for each concrete benchmark and survey cited, or remove/soften those unsupported quantitative and tooling claims.\"}, {\"problem\": \"The only ledger item is about Rust vs Go data races, but the report uses it to support broader claims (overall stronger safety, RAII, richer type system, fewer bugs, long-term maintainability) that go beyond what the quoted text actually states.\", \"fix\": \"Constrain the safety discussion to data-race and memory-safety differences explicitly mentioned in the ledger quote, or add new ledger items that substantiate the broader safety and maintainability claims.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 3684,
+    "completion_tokens": 213,
+    "total_tokens": 3897
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_fYJYrqCIgxqYkrTN1z7JpmLs",
+      "name": "web_search",
+      "args": {
+        "query": "\"2024 Zorblax Institute cold-fusion trials\""
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1719,
+    "completion_tokens": 35,
+    "total_tokens": 1754
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "search",
+  "key": "Rust vs Go performance high concurrency network services goroutines async comparison|5",
+  "value": [
+    {
+      "url": "https://www.reddit.com/r/golang/comments/1pi3914/is_go_still_the_best_choice_for_highconcurrency",
+      "title": "Is Go still the best choice for high-concurrency backends, or is Rust ...",
+      "content": "Rust will be much more expensive in development than Go. In almost every operations for highload concurrent services Go will be enough. If you",
+      "score": 0.98579,
+      "raw_content": null
+    },
+    {
+      "url": "https://tech-insider.org/rust-vs-go-2026-2",
+      "title": "Rust vs Go 2026: 12x Benchmark Gap and $25K Salary Divide ...",
+      "content": "Across the full benchmark suite, Rust averages 10-20% faster than Go for general CPU tasks, with much larger gaps in memory-intensive workloads.",
+      "score": 0.98196,
+      "raw_content": null
+    },
+    {
+      "url": "https://blog.logrocket.com/go-vs-rust-when-use-rust-when-use-go",
+      "title": "Go vs. Rust: When to use Rust and when to use Go - LogRocket Blog",
+      "content": "Go Vs. Rust: When To Use Rust And When To Use Go. There are clear differences between the Go and Rust programming languages. Rust: When to use Rust and when to use Go. Michiel Mulders Michiel loves the Node.js and Go programming languages. ## See how LogRocket's Galileo AI surfaces the most severe issues for you. * Go has a stronger focus on building web APIs and small services that can scale endlessly, especially with the power of goroutines. This is Rust\u2019s most considerable edge over Go; projects that demand high performance are generally better suited for Rust. This article will compare Go and Rust, evaluating each programming language for performance, concurrency, memory management, security features, and the overall developer experience. It was created to offer an alternative to C++ that was easier to learn and code and was optimized to run on multi-core CPUs. Since then, Golang usage has been great for developers who want to take advantage of Go\u2019s concurrency.",
+      "score": 0.97715,
+      "raw_content": null
+    },
+    {
+      "url": "https://ritik-chopra28.medium.com/rust-async-vs-go-goroutines-my-side-by-side-benchmark-of-3-real-workloads-1f1d31b08718",
+      "title": "Rust Async vs. Go Goroutines: My Side-by-Side Benchmark of 3 ...",
+      "content": "While Rust's async runtime delivered superior raw performance, Go's goroutines provided more predictable behavior under extreme load. Most",
+      "score": 0.97517,
+      "raw_content": null
+    },
+    {
+      "url": "https://users.rust-lang.org/t/golang-goroutines-channels-vs-rust-async-await/70159",
+      "title": "Golang Goroutines/Channels vs Rust Async/Await - help - The Rust Programming Language Forum",
+      "content": "// Attempt to get an IP address and print it. Do I need to turn the main function into async? Do I need to put and `async` to function `main`? To understand what this means, I would encourage you to read this article, which explains what consequences it has that Rust uses cooperative scheduling in async code. It's best to think of Go as a language where everything is async all the time, and it is better to compare Go to async Rust than it is to compare Go to non-async Rust. In general, the reason that async/await works the way it does is that Rust is that Rust wants to be able to work in settings where everything being async is not acceptable. It's true that the async/await syntax in Rust is visually similar to JS, but async Rust really is closer to Go than it is to JS.",
+      "score": 0.9705,
+      "raw_content": null
+    }
+  ]
+}

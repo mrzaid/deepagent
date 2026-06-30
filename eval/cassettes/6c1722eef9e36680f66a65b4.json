@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_WLCp156N6shxivQG1rJKTfLa",
+      "name": "web_search",
+      "args": {
+        "query": "cold fusion experiments evidence practical energy production mainstream scientific consensus"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1707,
+    "completion_tokens": 32,
+    "total_tokens": 1739
+  }
+}

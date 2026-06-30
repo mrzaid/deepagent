@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_OBrXz1CD9Q8Ig4Cc9zv80Ba1",
+      "name": "finish",
+      "args": {
+        "report": "SpaceX (Space Exploration Technologies Corporation) was founded by Elon Musk in 2002, with the goal of reducing the cost of spaceflight and enabling ambitious missions such as human settlement of Mars.[2][3]\n\nThe Falcon 1 program was SpaceX\u2019s first orbital launch vehicle and marked several key milestones in the company\u2019s early history:\n\n1. **Development of Falcon 1 as SpaceX\u2019s first rocket**  \n   Falcon 1 was a small, two\u2011stage, liquid\u2011fueled launch vehicle designed to place small satellites into orbit at significantly lower cost than existing options. It used SpaceX\u2019s in\u2011house Merlin engine on the first stage and was funded largely through internal investment on the order of tens of millions of dollars.[2][3]\n\n2. **First launch attempt and early failures (2006\u20132008)**  \n   Falcon 1\u2019s first launch took place in March 2006 and failed due to a fuel leak and fire in the first stage.[3]  \n   Subsequent launch attempts in March 2007 and August 2008 also failed to reach orbit, with issues occurring after stage separation. These three consecutive failures between 2006 and 2008 brought SpaceX close to bankruptcy and put the future of the company and the Falcon 1 program at risk.[1][2][3]\n\n3. **First successful orbital launch and historic milestone (September 2008)**  \n   On its fourth flight, Falcon 1 successfully reached orbit on September 28, 2008. This made SpaceX the first private company to develop and launch a liquid\u2011fueled rocket into Earth orbit.[1][2][3] The success came after only relatively minor changes from the previous attempt, such as adjustments to the timing between first\u2011stage cutoff and second\u2011stage separation.[1]\n\n4. **NASA contract and transition to larger vehicles (late 2008\u20132009)**  \n   Within a few months of the successful fourth flight, SpaceX secured a NASA contract for International Space Station cargo services worth more than $1 billion, which validated the company\u2019s approach and provided crucial funding.[1][3] Falcon 1 flew one additional successful mission (its fifth launch) in 2009 before being retired so that SpaceX could focus its resources on developing and operating the larger Falcon 9 rocket.[2][3]\n\nIn summary: Elon Musk founded SpaceX in 2002, and the Falcon 1 program\u2019s key milestones were its development as SpaceX\u2019s first small, liquid\u2011fueled orbital rocket; three initial launch failures from 2006 to 2008; the historic first successful orbital flight on September 28, 2008 (the first privately developed liquid\u2011fueled rocket to reach orbit); and the subsequent NASA ISS cargo contract and retirement of Falcon 1 after a final successful flight in 2009 as SpaceX shifted to Falcon 9.[1][2][3]\n\n## Sources\n[1] SpaceX timeline: Sky's the limit \u2014 https://www.lucensoftware.com/blog/spacex-timeline  \n[2] SpaceX \u2014 https://en.wikipedia.org/wiki/SpaceX  \n[3] SpaceX | Spacecraft, Rockets, xAI Acquisition, & 2026 IPO \u2014 https://www.britannica.com/money/SpaceX"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2892,
+    "completion_tokens": 724,
+    "total_tokens": 3616
+  }
+}

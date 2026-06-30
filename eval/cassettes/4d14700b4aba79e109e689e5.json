@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_g50kvbbOCENdWCXYuJn3UKPi",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://www.axios.com/2023/05/18/major-carbon-removal-deal"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2716,
+    "completion_tokens": 42,
+    "total_tokens": 2758
+  }
+}

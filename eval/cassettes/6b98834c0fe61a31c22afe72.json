@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"No evidence ledger items are provided at all, yet the report makes many specific, sourced claims (e.g., exact context sizes, latency numbers, model lists, page/image limits, vendor warnings). None of these are backed by any ledger entry.\", \"fix\": \"Add ledger items for each substantive factual claim (context sizes, latency figures, model variants, page/image limits, vendor guidance) with supporting quotes and URLs, or remove/soften claims that cannot be directly supported.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 3890,
+    "completion_tokens": 119,
+    "total_tokens": 4009
+  }
+}

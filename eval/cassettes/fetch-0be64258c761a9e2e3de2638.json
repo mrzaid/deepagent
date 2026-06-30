@@ -1,0 +1,8 @@
+{
+  "kind": "fetch",
+  "key": "https://tavily.com",
+  "value": [
+    "Tavily",
+    "/the web access layer for agents\nLoved by developers, built for enterprises\nGround models with fresh web context\nRetrieve live web data, extract relevant content, and return it structured and chunked for models, so agents reason over facts without hallucinating.\nHandle thousands of web queries in seconds\nA production-grade retrieval stack with real-time search, intelligent caching, and indexing keeps latency predictable as traffic grows.\nShip to production with built-in safeguards\nRequests pass through security, privacy, and content validation layers that block PII leakage, prompt injection, and malicious sources.\n/benchmarks\nWeb Search Driven by Research\n/proof is in the numbers\nTrusted in production. Proven at scale.\n300M+\nmonthly requests handled\n99.99% uptime\nSLA powering mission-critical systems\n180 ms\np50 on Tavily /search making us fastest on the market\n2M+\ndevelopers using Tavily\nBillions\nof pages crawled and extracted without downtime\nDrop-in integration\nwith leading LLM providers (OpenAI, Anthropic, Groq)"
+  ]
+}

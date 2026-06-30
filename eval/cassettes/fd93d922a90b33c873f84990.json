@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_PVvTYIkuzL3jzWq74bIFLo10",
+      "name": "read_note",
+      "args": {
+        "name": "draft_core_structure"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2306,
+    "completion_tokens": 25,
+    "total_tokens": 2331
+  }
+}

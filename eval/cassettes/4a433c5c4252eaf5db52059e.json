@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_eDKKJdrkpvpHy1cVeX5PR4Nw",
+      "name": "web_search",
+      "args": {
+        "query": "Zorblax"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1664,
+    "completion_tokens": 26,
+    "total_tokens": 1690
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_4CYx4AbBMQpjIVeAtVcdGUPV",
+      "name": "web_search",
+      "args": {
+        "query": "Rust vs Go memory safety data races race detector borrow checker ownership concurrency",
+        "commentary": true
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2996,
+    "completion_tokens": 40,
+    "total_tokens": 3036
+  }
+}

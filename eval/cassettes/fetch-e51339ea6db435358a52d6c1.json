@@ -1,0 +1,5 @@
+{
+  "kind": "fetch",
+  "key": "https://www.energy.gov/science/articles/cold-fusion",
+  "error": "failed to fetch https://www.energy.gov/science/articles/cold-fusion: 404 Client Error: Not Found for url: https://www.energy.gov/science/articles/cold-fusion"
+}

@@ -1,0 +1,38 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_VCRtYclGOpyDZkVS7CjKa3Bw",
+      "name": "update_plan",
+      "args": {
+        "steps": [
+          {
+            "text": "Clarify the scope: define early-onset Alzheimer\u2019s disease (EOAD), how it differs from late-onset AD, and what \u201cpromising treatments currently being researched\u201d should include (drug classes, non-drug interventions, trial phases).",
+            "status": "done"
+          },
+          {
+            "text": "Identify major categories of disease-modifying pharmacologic treatments under active research for EOAD (e.g., anti-amyloid, anti-tau, neuroinflammation, synaptic/neuronal protection, gene-targeted therapies) and key representative agents in each.",
+            "status": "active"
+          },
+          {
+            "text": "Investigate symptomatic and non-pharmacologic interventions being researched specifically for EOAD (e.g., cognitive training, neuromodulation, lifestyle/precision medicine approaches, psychosocial interventions for younger patients).",
+            "status": "pending"
+          },
+          {
+            "text": "Assess current clinical trial evidence and development stage for the most promising EOAD-relevant treatments (efficacy signals, safety concerns, regulatory status, and whether trials include or target EOAD).",
+            "status": "pending"
+          },
+          {
+            "text": "Synthesize which approaches appear most promising for EOAD specifically, highlight key ongoing trials, and outline realistic near- and medium-term prospects and uncertainties.",
+            "status": "pending"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2247,
+    "completion_tokens": 264,
+    "total_tokens": 2511
+  }
+}

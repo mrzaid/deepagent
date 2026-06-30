@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_CYLt1B4h0pZkKX9oupHW9OTm",
+      "name": "read_reference",
+      "args": {
+        "name": "paralegal",
+        "path": "references/offer-letter-standard.md"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2197,
+    "completion_tokens": 34,
+    "total_tokens": 2231
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "content": "The linked page is about the UK\u2019s STEP (Spherical Tokamak for Energy Production) fusion program and related government investment, not about the fictional 2024 Zorblax Institute cold-fusion trials. It describes UK funding commitments to fusion infrastructure at Culham, the STEP siting process, and technical/engineering challenges of spherical tokamaks (e.g., magnet stresses, wall heat loads, tritium breeding). It notes that STEP aims for first plasma around 2040, contingent on current spherical tokamak results. No information is provided on cold fusion or any Zorblax Institute trials, so this page does not contribute to the stated research goal.",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 511,
+    "completion_tokens": 144,
+    "total_tokens": 655
+  }
+}

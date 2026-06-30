@@ -1,0 +1,9 @@
+{
+  "content": "{\"relevance\":5,\"grounding\":4,\"completeness\":5,\"coherence\":5,\"comment\":\"Strong, detailed, and well-structured report that fully answers the goal, though some specifics (e.g., uptime, security details, exact integrations) go slightly beyond what is explicitly stated in the cited snippets.\"}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 1995,
+    "completion_tokens": 76,
+    "total_tokens": 2071
+  }
+}

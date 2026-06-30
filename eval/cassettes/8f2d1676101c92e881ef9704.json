@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_DjsKDJwaSDsZ61m63NulahN8",
+      "name": "web_search",
+      "args": {
+        "query": "Tavily API features pricing"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1392,
+    "completion_tokens": 28,
+    "total_tokens": 1420
+  }
+}

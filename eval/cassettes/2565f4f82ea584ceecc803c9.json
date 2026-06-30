@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Only ledger item supports that Elon Musk founded SpaceX in 2002; all other detailed Falcon 1 milestones, failures, dates, NASA contract value, and program transition are unsupported by any ledger evidence.\", \"fix\": \"Add ledger items (quotes + URLs) that explicitly cover Falcon 1\u2019s launch history, dates, outcomes, NASA contract details, and program retirement, or remove/soften unsupported specifics.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 1001,
+    "completion_tokens": 106,
+    "total_tokens": 1107
+  }
+}

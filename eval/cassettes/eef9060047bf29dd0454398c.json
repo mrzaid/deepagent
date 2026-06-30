@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Multiple detailed claims about Climeworks (Mammoth plant capacity, Puro certification, Generation 3 energy reduction, link to Project Cypress) are not supported by the single Climeworks ledger quote, which only describes the basic DAC process.\", \"fix\": \"Remove or explicitly mark as unsupported all Climeworks milestone details that go beyond the quoted DAC process description, or add ledger items that substantiate them.\"}, {\"problem\": \"The Charm Industrial milestone section (5,000 tCO2e removed, largest delivery to date, specific buyers, scaling implications) relies on a source [3] that is not present in the evidence ledger.\", \"fix\": \"Either add a ledger item for source [3] with a supporting quote, or delete/soften the milestone claims that depend on it.\"}, {\"problem\": \"All Heirloom method and milestone details (mineral-based DAC, kiln powered by renewables, tray system, 3-day uptake, first commercial DAC facility, community governance, early 2024 timing) are attributed to source [4], which is not represented in the evidence ledger.\", \"fix\": \"Add one or more ledger items for source [4] that support these claims, or pare the Heirloom section back to only what is covered by existing ledger entries.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 1558,
+    "completion_tokens": 286,
+    "total_tokens": 1844
+  }
+}

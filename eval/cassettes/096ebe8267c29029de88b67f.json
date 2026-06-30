@@ -1,0 +1,9 @@
+{
+  "content": "The Tavily API is a research tool for powering AI agents, priced primarily by API credits. It offers a free \u201cResearcher\u201d plan with 1,000 credits/month and email support, and a pay-as-you-go option at $0.008 per credit with flexible usage and cancellation. A \u201cProject\u201d plan (for enthusiasts) provides 4,000 credits/month with higher rate limits and email support, while \u201cEnterprise\u201d plans are custom, with tailored API calls, rate limits, enterprise support/SLAs, and enhanced security/privacy. Tavily is also free for students.",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 127,
+    "total_tokens": 355
+  }
+}

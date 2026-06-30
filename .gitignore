@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Env & secrets
+.env
+.env.local
+
+# Agent runtime artifacts (transient per-run state)
+runs/
+
+# eval/cassettes and eval/results ARE committed on purpose:
+#   - cassettes let anyone replay the eval offline & free (LLM_MODE=replay)
+#   - results/ ships the authoritative scorecard
+# (page text under runs/ stays out; cassettes hold what replay needs)
+
+# web (React+TS) toolchain — ignore node_modules ONLY; the built bundle is
+# committed under server/static so the app runs with no Node toolchain.
+web/node_modules/
+web/.vite/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Internal — kept local, NEVER pushed to the public submission repo.
+# Planning docs, prep/recording scripts, the submission guide, the presentation,
+# and editable diagram sources all live here. (architecture.md stays committed.)
+archive/
+
+# third-party reference app (kept local, not part of the submission)
+/reference/

@@ -1,0 +1,24 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_p4aOVYuPSztLeIJjExs4DlS7",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://ritik-chopra28.medium.com/rust-async-vs-go-goroutines-my-side-by-side-benchmark-of-3-real-workloads-1f1d31b08718"
+      }
+    },
+    {
+      "id": "call_lpYse2AJMSmTIoyJcrRPKVhW",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://blog.logrocket.com/go-vs-rust-when-use-rust-when-use-go"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1879,
+    "completion_tokens": 112,
+    "total_tokens": 1991
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_5WCymyeY7f4XrbraDIHab0Tx",
+      "name": "web_search",
+      "args": {
+        "query": "Tavily API features real-time web search content extraction caching indexing safeguards security privacy PII prompt injection",
+        "tool_name": "web_search"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2099,
+    "completion_tokens": 48,
+    "total_tokens": 2147
+  }
+}

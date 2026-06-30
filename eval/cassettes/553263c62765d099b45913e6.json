@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_H89HhPzUcmWEfkgPv1zAMwXc",
+      "name": "read_note",
+      "args": {
+        "name": "rent_and_ratification_draft"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2327,
+    "completion_tokens": 28,
+    "total_tokens": 2355
+  }
+}

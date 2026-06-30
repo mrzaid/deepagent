@@ -1,0 +1,41 @@
+{
+  "kind": "search",
+  "key": "OpenAI GPT-4.1 context window 1 million tokens site:openai.com|5",
+  "value": [
+    {
+      "url": "https://community.openai.com/t/large-context-window-what-are-you-using-it-for/1241320",
+      "title": "Large context window \u2014 what are you using it for? - Community",
+      "content": "Was just reminded that GPT-4.1 has the largest context window of all the OpenAI models \u2014 up to 1,047,576 tokens. I\u2019ve not done anything yet\u2026 but I\u2019m excited to send some of my longer novels (100k+ words) and see if I can get some good info on them. But will definitely try to see if it can be used in doc generations based on large API definitions and database schemas. Hey Edwin, just was playing with this documentation and from what I saw, unfortunately the large context window even if used only to provide context info, does not bring better results when used in specific tasks (several files concatenated, containing tech info) : task was to generate a documentation for an entity in the database- fields, purpose, translations, along with its relations and business logic. Even if all the info was available in the context and the expected output was under 5k tokens, the GPT4.1 fails to consider the required context and zaps a lot of otherwise simple elements from it.",
+      "score": 0.82492816,
+      "raw_content": null
+    },
+    {
+      "url": "https://community.openai.com/t/gpt-4-1-supports-1m-token-context-chatgpt-still-capped-at-32k/1269979/3",
+      "title": "GPT-4.1 Supports 1M Token Context\u2014ChatGPT Still Capped at 32K",
+      "content": "The 1m context window is only available using the API models, which can be accessed in the playground after you deposit $5 in credits.",
+      "score": 0.8201387,
+      "raw_content": null
+    },
+    {
+      "url": "https://community.openai.com/t/gpt-4-1-supports-1m-token-context-chatgpt-still-capped-at-32k/1269979",
+      "title": "GPT-4.1 Supports 1M Token Context\u2014ChatGPT Still Capped at 32K",
+      "content": "# GPT-4.1 Supports 1M Token Context\u2014ChatGPT Still Capped at 32K. I\u2019ve been a long-time ChatGPT Plus subscriber and began using GPT-4.1 in Chat as soon as it was released. One of GPT-4.1\u2019s core features is its support for a 1 million token context window\u2014an upgrade that dramatically expands what the model is capable of. But in ChatGPT, GPT-4.1 is still restricted to **32,000 tokens**. This is the same limit as GPT-4o and far below the model\u2019s full capacity. If the model supports it and the infrastructure already delivers it through API, paying users of ChatGPT should not be left behind. What do you think is going to happen if they made ChatGPT support 1 mil context ? If ChatGPT is free to use and there is no tiering, what\u2019s subscription for ? At the API level, we see that there is a different in cost for the different models.",
+      "score": 0.81595254,
+      "raw_content": null
+    },
+    {
+      "url": "https://community.openai.com/t/why-am-i-hitting-300-000-tokens-limit-on-gpt4-1-which-should-have-1m-context-length/1249404",
+      "title": "Why am I hitting 300_000 tokens limit on GPT4.1. which should have 1M context length? - API - OpenAI Developer Community",
+      "content": "# Why am I hitting 300\\_000 tokens limit on GPT4.1. openai.BadRequestError: Error code: 400 - {\u2018error\u2019: {\u2018message\u2019: \u201cThis model\u2019s maximum context length is 300000 tokens. However, your messages resulted in 330294 tokens (including 57 in the response\\_format schemas.). Please reduce the length of the messages or schemas.\u201d, \u2018type\u2019: \u2018invalid\\_request\\_error\u2019, \u2018param\u2019: \u2018messages\u2019, \u2018code\u2019: \u2018context\\_length\\_exceeded\u2019}}. According to the documentation there should be 1M tokens am I right? And yes I am 100% sure I am using GPT4.1. model='gpt-4.1-mini',. Same issue with using gpt-4.1-mini, \u201cThis model\u2019s maximum context length is 300000 tokens. Please reduce the length of the messages or schemas.\u201d. | Gpt-4-1106-preview: 400 This model's maximum context length is 4097 tokens  API api ,\u00a0 token ,\u00a0 gpt-4-turbo | 8 | 5923 | March 18, 2024 |. | GPT-4o Context Window is 128K but Getting error model's maximum context length is 8192 tokens, however you requested 21026 tokens  API | 9 | 11487 | October 21, 2024 |. | GPT-4 API only supports 4096 context length?",
+      "score": 0.80014634,
+      "raw_content": null
+    },
+    {
+      "url": "https://community.openai.com/t/we-need-bigger-context-windows-in-chatgpt/1290633",
+      "title": "We need bigger context windows in ChatGPT - Feature requests",
+      "content": "I love the option to select different models (I hope GPT-5 still gives some flexibility on this), but, as a subscriber to Claude and Gemini, I am forced to use them when dealing with big documents or having a long conversation. Claude\u2019s context window is 200k tokens and Gemini\u2019s is 1M tokens. In comparison, ChatGPT has 8k on the free version, which I can understand as these things are expensive and you want people to subscribe if they\u2019re using it for long tasks. In my opinion, that makes no sense in 2025, especially when the competition is clearly ahead on this issue and OpenAI itself already has models that support longer context windows (up to 1M with 4.1 in the API). 32k is barely usable for long documents/chats, and I feel 200k should be the bare minimum for Plus (even though I\u2019d argue it should be between 500k and 1M \u2013 Gemini and Claude don\u2019t lock their bigger context windows to their highest-priced plan).",
+      "score": 0.72184175,
+      "raw_content": null
+    }
+  ]
+}

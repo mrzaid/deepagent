@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_huFd0IhgcaGoABynwI075BNP",
+      "name": "use_skill",
+      "args": {
+        "name": "paralegal"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1835,
+    "completion_tokens": 25,
+    "total_tokens": 1860
+  }
+}

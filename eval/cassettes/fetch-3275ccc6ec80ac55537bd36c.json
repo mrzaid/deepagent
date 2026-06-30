@@ -1,0 +1,8 @@
+{
+  "kind": "fetch",
+  "key": "https://help.tavily.com/articles/3240802908-rate-limits",
+  "value": [
+    "Rate Limits",
+    "Rate Limits\nTavily offers two types of rate limits, each specific to the environment associated with your API key. These are the Development and Production environments. Each environment has its own set of rate limits that dictate how many requests can be made per minute.\nDevelopment Environment\n- Requests per minute (RPM): 100 \n- The Development environment is designed for testing and development purposes. It allows up to 100 requests per minute, which is ideal for experimenting with API calls and integrating features without impacting your production environment. \nProduction Environment\n- Requests per minute (RPM): 1,000 \n- The Production environment is intended for live applications and services. It offers a higher rate limit of 1,000 requests per minute, allowing you to scale your usage as your application goes live and experiences increased traffic. \nCrawl Endpoint Rate Limits\nThe crawl endpoint has a separate rate limit that applies to both development and production keys:"
+  ]
+}

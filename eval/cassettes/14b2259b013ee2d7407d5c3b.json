@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_ifavcHbN9Fc794zzAfEG5vBy",
+      "name": "web_search",
+      "args": {
+        "query": "Rust vs Go performance high concurrency benchmark goroutines async network server"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2274,
+    "completion_tokens": 34,
+    "total_tokens": 2308
+  }
+}

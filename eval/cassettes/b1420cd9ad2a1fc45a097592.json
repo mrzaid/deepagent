@@ -1,0 +1,9 @@
+{
+  "content": "OpenAI\u2019s new GPT\u20114.1, GPT\u20114.1 mini, and GPT\u20114.1 nano models all support up to a 1 million token context window, a major increase over the previous GPT\u20114o limit of 128,000 tokens. The models are explicitly trained to attend reliably across the full window, reducing \u201clost in the middle\u201d issues and improving retrieval and multi-hop reasoning over long inputs, as shown by strong performance on long-context benchmarks (needle-in-a-haystack, OpenAI\u2011MRCR, Graphwalks, Video\u2011MME). Practically, very long contexts incur substantial latency: GPT\u20114.1 takes ~15 seconds to first token at 128K tokens and about a minute at 1M tokens, though mini and nano are faster and prompt caching can mitigate repeated-context costs. OpenAI notes that while single-needle retrieval is robust even at 1M tokens, complex multi-needle and multi-hop reasoning over long contexts remains challenging, so developers should expect trade-offs between context length, speed, and task difficulty.",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 4506,
+    "completion_tokens": 228,
+    "total_tokens": 4734
+  }
+}

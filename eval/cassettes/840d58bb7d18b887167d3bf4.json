@@ -1,0 +1,9 @@
+{
+  "content": "{\"relevance\":4,\"grounding\":5,\"completeness\":3,\"coherence\":5,\"comment\":\"Accurately grounded and clearly structured, but only partially answers the treatment-focused goal due to reliance on a single high-level source and lack of specific agents or detailed trial data.\"}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 2154,
+    "completion_tokens": 69,
+    "total_tokens": 2223
+  }
+}

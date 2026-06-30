@@ -1,0 +1,9 @@
+{
+  "content": "Tavily is an API that provides web access and retrieval for AI agents, letting them ground models in fresh, structured web data to reduce hallucinations. Its main features include real-time web search, content extraction and chunking, intelligent caching and indexing for high throughput and low latency, and built-in safeguards for security, privacy, PII protection, prompt-injection defense, and malicious-source filtering. It is production-focused, with high scalability (hundreds of millions of monthly requests), 99.99% uptime, and fast response times, and offers drop-in integrations with major LLM providers like OpenAI, Anthropic, and Groq. The provided page text does not include specific pricing details, so pricing would need to be obtained from Tavily\u2019s pricing or sales pages.",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 287,
+    "completion_tokens": 166,
+    "total_tokens": 453
+  }
+}

@@ -1,0 +1,719 @@
+{
+  "mode": "record",
+  "results": [
+    {
+      "id": "carbon-capture",
+      "goal": "Compare the carbon-capture approaches of three companies: Climeworks, Charm Industrial, and Heirloom. For each, summarise the core method and one recent milestone.",
+      "fault": null,
+      "skill": null,
+      "done": true,
+      "steps": 19,
+      "findings": 2,
+      "sources_fetched": 4,
+      "nudges": 2,
+      "elapsed_s": 0.1,
+      "metrics": {
+        "tool_calls": 19,
+        "tool_error_rate": 0.053,
+        "replans": 2,
+        "nudges_by_kind": {
+          "stall": 1,
+          "search_without_fetch": 1
+        },
+        "verify_failed": 2,
+        "verify_retries": 2,
+        "compactions": 0,
+        "notes_written": 0
+      },
+      "checks": [
+        {
+          "name": "completed",
+          "passed": true,
+          "detail": "done=True"
+        },
+        {
+          "name": "has_report",
+          "passed": true,
+          "detail": "4718 chars"
+        },
+        {
+          "name": "no_fabricated_citations",
+          "passed": true,
+          "detail": "none"
+        },
+        {
+          "name": "within_step_budget",
+          "passed": true,
+          "detail": "19/20 steps"
+        },
+        {
+          "name": "claims_verified",
+          "passed": false,
+          "detail": "critic outstanding issues=3"
+        },
+        {
+          "name": "cited>=3",
+          "passed": true,
+          "detail": "4 distinct fetched sources cited"
+        }
+      ],
+      "checks_passed": 5,
+      "checks_total": 6,
+      "judge": null
+    },
+    {
+      "id": "llm-long-context",
+      "goal": "What context-window sizes do the latest GPT-4-class and Claude models support, and what are the practical trade-offs of using very long contexts?",
+      "fault": null,
+      "skill": null,
+      "done": true,
+      "steps": 20,
+      "findings": 1,
+      "sources_fetched": 2,
+      "nudges": 4,
+      "elapsed_s": 0.1,
+      "metrics": {
+        "tool_calls": 20,
+        "tool_error_rate": 0.0,
+        "replans": 4,
+        "nudges_by_kind": {
+          "stall": 2,
+          "search_without_fetch": 2
+        },
+        "verify_failed": 2,
+        "verify_retries": 2,
+        "compactions": 0,
+        "notes_written": 0
+      },
+      "checks": [
+        {
+          "name": "completed",
+          "passed": true,
+          "detail": "done=True"
+        },
+        {
+          "name": "has_report",
+          "passed": true,
+          "detail": "4276 chars"
+        },
+        {
+          "name": "no_fabricated_citations",
+          "passed": true,
+          "detail": "none"
+        },
+        {
+          "name": "within_step_budget",
+          "passed": true,
+          "detail": "20/20 steps"
+        },
+        {
+          "name": "claims_verified",
+          "passed": true,
+          "detail": "critic outstanding issues=0"
+        },
+        {
+          "name": "cited>=3",
+          "passed": false,
+          "detail": "1 distinct fetched sources cited"
+        }
+      ],
+      "checks_passed": 5,
+      "checks_total": 6,
+      "judge": null
+    },
+    {
+      "id": "rust-vs-go",
+      "goal": "For building a high-concurrency network service, compare Rust and Go on performance, memory safety, and developer ergonomics.",
+      "fault": null,
+      "skill": null,
+      "done": true,
+      "steps": 18,
+      "findings": 1,
+      "sources_fetched": 4,
+      "nudges": 1,
+      "elapsed_s": 0.1,
+      "metrics": {
+        "tool_calls": 18,
+        "tool_error_rate": 0.0,
+        "replans": 4,
+        "nudges_by_kind": {
+          "search_without_fetch": 1
+        },
+        "verify_failed": 1,
+        "verify_retries": 1,
+        "compactions": 0,
+        "notes_written": 0
+      },
+      "checks": [
+        {
+          "name": "completed",
+          "passed": true,
+          "detail": "done=True"
+        },
+        {
+          "name": "has_report",
+          "passed": true,
+          "detail": "5454 chars"
+        },
+        {
+          "name": "no_fabricated_citations",
+          "passed": true,
+          "detail": "none"
+        },
+        {
+          "name": "within_step_budget",
+          "passed": true,
+          "detail": "18/20 steps"
+        },
+        {
+          "name": "claims_verified",
+          "passed": true,
+          "detail": "critic outstanding issues=0"
+        },
+        {
+          "name": "cited>=3",
+          "passed": false,
+          "detail": "1 distinct fetched sources cited"
+        }
+      ],
+      "checks_passed": 5,
+      "checks_total": 6,
+      "judge": null
+    },
+    {
+      "id": "tavily-api",
+      "goal": "What is the Tavily API, what are its main features, and how is it priced?",
+      "fault": "fail_first_fetch",
+      "skill": null,
+      "done": true,
+      "steps": 19,
+      "findings": 3,
+      "sources_fetched": 5,
+      "nudges": 1,
+      "elapsed_s": 0.1,
+      "metrics": {
+        "tool_calls": 19,
+        "tool_error_rate": 0.053,
+        "replans": 2,
+        "nudges_by_kind": {
+          "stall": 1
+        },
+        "verify_failed": 2,
+        "verify_retries": 2,
+        "compactions": 0,
+        "notes_written": 0
+      },
+      "checks": [
+        {
+          "name": "completed",
+          "passed": true,
+          "detail": "done=True"
+        },
+        {
+          "name": "has_report",
+          "passed": true,
+          "detail": "7133 chars"
+        },
+        {
+          "name": "no_fabricated_citations",
+          "passed": true,
+          "detail": "none"
+        },
+        {
+          "name": "within_step_budget",
+          "passed": true,
+          "detail": "19/20 steps"
+        },
+        {
+          "name": "claims_verified",
+          "passed": false,
+          "detail": "critic outstanding issues=4"
+        },
+        {
+          "name": "cited>=2",
+          "passed": true,
+          "detail": "5 distinct fetched sources cited"
+        },
+        {
+          "name": "recovered_from_fault",
+          "passed": true,
+          "detail": "saw_error=True, done=True, findings=3"
+        }
+      ],
+      "checks_passed": 6,
+      "checks_total": 7,
+      "judge": null
+    },
+    {
+      "id": "alzheimers-treatments",
+      "goal": "What are the most promising treatments currently being researched for early-onset Alzheimer's disease?",
+      "fault": null,
+      "skill": null,
+      "done": true,
+      "steps": 19,
+      "findings": 1,
+      "sources_fetched": 1,
+      "nudges": 2,
+      "elapsed_s": 0.1,
+      "metrics": {
+        "tool_calls": 19,
+        "tool_error_rate": 0.0,
+        "replans": 12,
+        "nudges_by_kind": {
+          "stall": 2
+        },
+        "verify_failed": 2,
+        "verify_retries": 2,
+        "compactions": 0,
+        "notes_written": 0
+      },
+      "checks": [
+        {
+          "name": "completed",
+          "passed": true,
+          "detail": "done=True"
+        },
+        {
+          "name": "has_report",
+          "passed": true,
+          "detail": "9611 chars"
+        },
+        {
+          "name": "no_fabricated_citations",
+          "passed": true,
+          "detail": "none"
+        },
+        {
+          "name": "within_step_budget",
+          "passed": true,
+          "detail": "19/20 steps"
+        },
+        {
+          "name": "claims_verified",
+          "passed": false,
+          "detail": "critic outstanding issues=1"
+        },
+        {
+          "name": "cited>=3",
+          "passed": false,
+          "detail": "1 distinct fetched sources cited"
+        }
+      ],
+      "checks_passed": 4,
+      "checks_total": 6,
+      "judge": null
+    },
+    {
+      "id": "spacex-falcon1",
+      "goal": "Who founded SpaceX and in what year, and what were the key milestones of the Falcon 1 program?",
+      "fault": null,
+      "skill": null,
+      "done": true,
+      "steps": 20,
+      "findings": 1,
+      "sources_fetched": 3,
+      "nudges": 2,
+      "elapsed_s": 0.1,
+      "metrics": {
+        "tool_calls": 20,
+        "tool_error_rate": 0.15,
+        "replans": 3,
+        "nudges_by_kind": {
+          "stall": 1,
+          "search_without_fetch": 1
+        },
+        "verify_failed": 2,
+        "verify_retries": 2,
+        "compactions": 0,
+        "notes_written": 0
+      },
+      "checks": [
+        {
+          "name": "completed",
+          "passed": true,
+          "detail": "done=True"
+        },
+        {
+          "name": "has_report",
+          "passed": true,
+          "detail": "839 chars"
+        },
+        {
+          "name": "no_fabricated_citations",
+          "passed": true,
+          "detail": "none"
+        },
+        {
+          "name": "within_step_budget",
+          "passed": true,
+          "detail": "20/20 steps"
+        },
+        {
+          "name": "claims_verified",
+          "passed": true,
+          "detail": "critic outstanding issues=0"
+        },
+        {
+          "name": "cited>=2",
+          "passed": false,
+          "detail": "1 distinct fetched sources cited"
+        }
+      ],
+      "checks_passed": 5,
+      "checks_total": 6,
+      "judge": null
+    },
+    {
+      "id": "no-sources-available",
+      "goal": "Summarise the published findings of the (fictional) 2024 Zorblax Institute cold-fusion trials.",
+      "fault": "empty_results",
+      "skill": null,
+      "done": true,
+      "steps": 20,
+      "findings": 0,
+      "sources_fetched": 1,
+      "nudges": 5,
+      "elapsed_s": 0.1,
+      "metrics": {
+        "tool_calls": 20,
+        "tool_error_rate": 0.2,
+        "replans": 7,
+        "nudges_by_kind": {
+          "search_without_fetch": 2,
+          "stall": 3
+        },
+        "verify_failed": 0,
+        "verify_retries": 0,
+        "compactions": 0,
+        "notes_written": 0
+      },
+      "checks": [
+        {
+          "name": "completed",
+          "passed": true,
+          "detail": "done=True"
+        },
+        {
+          "name": "has_report",
+          "passed": true,
+          "detail": "236 chars"
+        },
+        {
+          "name": "no_fabricated_citations",
+          "passed": true,
+          "detail": "none"
+        },
+        {
+          "name": "within_step_budget",
+          "passed": true,
+          "detail": "20/20 steps"
+        },
+        {
+          "name": "cited>=0",
+          "passed": true,
+          "detail": "0 distinct fetched sources cited"
+        },
+        {
+          "name": "no_false_success",
+          "passed": true,
+          "detail": "cited=0, admits_gap=True"
+        }
+      ],
+      "checks_passed": 6,
+      "checks_total": 6,
+      "judge": null
+    },
+    {
+      "id": "legal-nda-draft",
+      "goal": "Draft a mutual non-disclosure agreement between Acme Corp and Beta LLC, governed by Washington law, for evaluating a potential partnership. Use only the facts given; mark every unknown field as [BLANK]. Include the attorney-review disclaimer.",
+      "fault": null,
+      "skill": "paralegal",
+      "done": true,
+      "steps": 17,
+      "findings": 0,
+      "sources_fetched": 0,
+      "nudges": 3,
+      "elapsed_s": 182.9,
+      "metrics": {
+        "tool_calls": 17,
+        "tool_error_rate": 0.0,
+        "replans": 2,
+        "nudges_by_kind": {
+          "stall": 3
+        },
+        "verify_failed": 2,
+        "verify_retries": 2,
+        "compactions": 0,
+        "notes_written": 2
+      },
+      "checks": [
+        {
+          "name": "completed",
+          "passed": true,
+          "detail": "done=True"
+        },
+        {
+          "name": "has_report",
+          "passed": true,
+          "detail": "15340 chars"
+        },
+        {
+          "name": "no_fabricated_citations",
+          "passed": true,
+          "detail": "none"
+        },
+        {
+          "name": "within_step_budget",
+          "passed": true,
+          "detail": "17/20 steps"
+        },
+        {
+          "name": "claims_verified",
+          "passed": false,
+          "detail": "critic outstanding issues=1"
+        },
+        {
+          "name": "used_skill",
+          "passed": true,
+          "detail": "skill_loaded event: True"
+        },
+        {
+          "name": "loaded_pipeline",
+          "passed": true,
+          "detail": "reference_read event: True"
+        },
+        {
+          "name": "attorney_disclaimer",
+          "passed": false,
+          "detail": "missing"
+        },
+        {
+          "name": "marks_unknowns",
+          "passed": true,
+          "detail": "marks [BLANK]/[TBD]"
+        }
+      ],
+      "checks_passed": 7,
+      "checks_total": 9,
+      "judge": null
+    },
+    {
+      "id": "legal-contract-review",
+      "goal": "Review this NDA clause from the disclosing party's perspective and flag risks with suggested redlines:\n\n'Recipient may disclose Confidential Information to its affiliates, agents, and advisors at its sole discretion. This Agreement has no expiration and is governed by the laws of the State of Delaware.'\n\nInclude the attorney-review disclaimer and mark anything that needs client confirmation as [CONFIRM WITH CLIENT].",
+      "fault": null,
+      "skill": "paralegal",
+      "done": true,
+      "steps": 10,
+      "findings": 0,
+      "sources_fetched": 0,
+      "nudges": 0,
+      "elapsed_s": 93.2,
+      "metrics": {
+        "tool_calls": 10,
+        "tool_error_rate": 0.0,
+        "replans": 4,
+        "nudges_by_kind": {},
+        "verify_failed": 2,
+        "verify_retries": 2,
+        "compactions": 0,
+        "notes_written": 0
+      },
+      "checks": [
+        {
+          "name": "completed",
+          "passed": true,
+          "detail": "done=True"
+        },
+        {
+          "name": "has_report",
+          "passed": true,
+          "detail": "7766 chars"
+        },
+        {
+          "name": "no_fabricated_citations",
+          "passed": true,
+          "detail": "none"
+        },
+        {
+          "name": "within_step_budget",
+          "passed": true,
+          "detail": "10/20 steps"
+        },
+        {
+          "name": "claims_verified",
+          "passed": false,
+          "detail": "critic outstanding issues=4"
+        },
+        {
+          "name": "used_skill",
+          "passed": true,
+          "detail": "skill_loaded event: True"
+        },
+        {
+          "name": "loaded_pipeline",
+          "passed": true,
+          "detail": "reference_read event: True"
+        },
+        {
+          "name": "attorney_disclaimer",
+          "passed": true,
+          "detail": "present"
+        },
+        {
+          "name": "marks_unknowns",
+          "passed": true,
+          "detail": "marks [BLANK]/[TBD]"
+        }
+      ],
+      "checks_passed": 8,
+      "checks_total": 9,
+      "judge": null
+    },
+    {
+      "id": "legal-ads-offer-letter",
+      "goal": "Draft an Analytics Dojo SMC Private (ADS) standard employment offer letter for a Data Analyst named Sara Khan. Apply the ADS fixed defaults and Pakistan labour law; mark every variable you weren't given (start date, compensation, reporting line) as [BLANK]. Include the attorney-review disclaimer.",
+      "fault": null,
+      "skill": "paralegal",
+      "done": true,
+      "steps": 14,
+      "findings": 0,
+      "sources_fetched": 0,
+      "nudges": 0,
+      "elapsed_s": 118.4,
+      "metrics": {
+        "tool_calls": 14,
+        "tool_error_rate": 0.0,
+        "replans": 3,
+        "nudges_by_kind": {},
+        "verify_failed": 1,
+        "verify_retries": 1,
+        "compactions": 0,
+        "notes_written": 1
+      },
+      "checks": [
+        {
+          "name": "completed",
+          "passed": true,
+          "detail": "done=True"
+        },
+        {
+          "name": "has_report",
+          "passed": true,
+          "detail": "19140 chars"
+        },
+        {
+          "name": "no_fabricated_citations",
+          "passed": true,
+          "detail": "none"
+        },
+        {
+          "name": "within_step_budget",
+          "passed": true,
+          "detail": "14/20 steps"
+        },
+        {
+          "name": "claims_verified",
+          "passed": true,
+          "detail": "critic outstanding issues=0"
+        },
+        {
+          "name": "used_skill",
+          "passed": true,
+          "detail": "skill_loaded event: True"
+        },
+        {
+          "name": "loaded_pipeline",
+          "passed": true,
+          "detail": "reference_read event: True"
+        },
+        {
+          "name": "attorney_disclaimer",
+          "passed": true,
+          "detail": "present"
+        },
+        {
+          "name": "marks_unknowns",
+          "passed": true,
+          "detail": "marks [BLANK]/[TBD]"
+        }
+      ],
+      "checks_passed": 9,
+      "checks_total": 9,
+      "judge": null
+    },
+    {
+      "id": "legal-lease-amendment",
+      "goal": "Draft an amendment to an existing commercial lease that changes only the monthly base rent, leaving all other terms intact. Use only the facts given; mark open items as [TBD]; include a ratification clause tying back to the base lease and the attorney-review disclaimer.",
+      "fault": null,
+      "skill": "paralegal",
+      "done": true,
+      "steps": 19,
+      "findings": 0,
+      "sources_fetched": 0,
+      "nudges": 3,
+      "elapsed_s": 0.2,
+      "metrics": {
+        "tool_calls": 19,
+        "tool_error_rate": 0.0,
+        "replans": 3,
+        "nudges_by_kind": {
+          "stall": 3
+        },
+        "verify_failed": 2,
+        "verify_retries": 2,
+        "compactions": 0,
+        "notes_written": 3
+      },
+      "checks": [
+        {
+          "name": "completed",
+          "passed": true,
+          "detail": "done=True"
+        },
+        {
+          "name": "has_report",
+          "passed": true,
+          "detail": "10312 chars"
+        },
+        {
+          "name": "no_fabricated_citations",
+          "passed": true,
+          "detail": "none"
+        },
+        {
+          "name": "within_step_budget",
+          "passed": true,
+          "detail": "19/20 steps"
+        },
+        {
+          "name": "claims_verified",
+          "passed": false,
+          "detail": "critic outstanding issues=3"
+        },
+        {
+          "name": "used_skill",
+          "passed": true,
+          "detail": "skill_loaded event: True"
+        },
+        {
+          "name": "loaded_pipeline",
+          "passed": true,
+          "detail": "reference_read event: True"
+        },
+        {
+          "name": "attorney_disclaimer",
+          "passed": true,
+          "detail": "present"
+        },
+        {
+          "name": "marks_unknowns",
+          "passed": true,
+          "detail": "marks [BLANK]/[TBD]"
+        }
+      ],
+      "checks_passed": 8,
+      "checks_total": 9,
+      "judge": null
+    }
+  ]
+}

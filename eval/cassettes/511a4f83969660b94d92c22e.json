@@ -1,0 +1,19 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_HC9dgvlbvrwgcD3zx5DZ2IN2",
+      "name": "record_finding",
+      "args": {
+        "claim": "OpenAI\u2019s GPT\u20114.1, GPT\u20114.1 mini, and GPT\u20114.1 nano models each support up to a 1 million token context window, a major increase over the previous GPT\u20114o limit of 128,000 tokens.",
+        "source_url": "https://openai.com/index/gpt-4-1",
+        "quote": "GPT\u20114.1, GPT\u20114.1 mini, and GPT\u20114.1 nano are our first models with a 1 million token context window\u2026 Our previous flagship GPT\u20114o supported up to 128K tokens."
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3669,
+    "completion_tokens": 143,
+    "total_tokens": 3812
+  }
+}

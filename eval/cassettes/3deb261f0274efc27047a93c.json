@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_VS5lhFD7VxEL3QPHs3zI8gRm",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://help.tavily.com/articles/3240802908-rate-limits"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3018,
+    "completion_tokens": 38,
+    "total_tokens": 3056
+  }
+}

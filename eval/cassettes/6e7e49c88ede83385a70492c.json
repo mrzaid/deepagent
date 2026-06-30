@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_EU6U1aNw07yV7RHedHEDm3gT",
+      "name": "read_reference",
+      "args": {
+        "name": "paralegal",
+        "path": "ads-offer-letter-checklist.md"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2262,
+    "completion_tokens": 35,
+    "total_tokens": 2297
+  }
+}

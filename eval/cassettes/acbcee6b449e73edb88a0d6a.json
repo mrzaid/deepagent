@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_I82umH1zcC0ea4DelMQsbKnb",
+      "name": "web_search",
+      "args": {
+        "query": "Charm Industrial recent milestone 2024 2023 carbon removal tonnes delivered",
+        "topn": 5
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2447,
+    "completion_tokens": 41,
+    "total_tokens": 2488
+  }
+}

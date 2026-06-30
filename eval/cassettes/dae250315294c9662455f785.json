@@ -1,0 +1,42 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_eeXCFmHPmhKRoBgWhLgLz5ob",
+      "name": "update_plan",
+      "args": {
+        "steps": [
+          {
+            "text": "Confirm scope, parties, and key economic terms to be amended (base rent only; all other lease terms unchanged). Identify missing deal points to mark as [TBD].",
+            "status": "done"
+          },
+          {
+            "text": "Draft core amendment structure: title, recitals tying back to the original lease (and any prior amendments), and defined terms.",
+            "status": "done"
+          },
+          {
+            "text": "Draft the rent modification provision: specify the new monthly base rent, effective date, and any schedule; clarify that all other rent components remain unchanged.",
+            "status": "active"
+          },
+          {
+            "text": "Draft ratification and no\u2011other\u2011changes clauses reaffirming the base lease and addressing conflicts between documents.",
+            "status": "pending"
+          },
+          {
+            "text": "Add boilerplate: counterparts/e-signatures, authority, governing law (if needed), and attorney\u2011review / no\u2011legal\u2011advice disclaimer.",
+            "status": "pending"
+          },
+          {
+            "text": "Quality check against pipeline checklist (placeholders [TBD] for any missing facts) and prepare final clean amendment text.",
+            "status": "pending"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2342,
+    "completion_tokens": 223,
+    "total_tokens": 2565
+  }
+}

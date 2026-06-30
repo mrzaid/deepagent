@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_0V6ZecjI0iyPOl4aaRcVjl54",
+      "name": "web_search",
+      "args": {
+        "query": "early-onset Alzheimer disease definition age younger than 65 differences from late-onset and treatment considerations",
+        "_type": "json"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1505,
+    "completion_tokens": 46,
+    "total_tokens": 1551
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Evidence ledger is empty; all substantive analysis and redline suggestions in the report lack any supporting ledger items.\", \"fix\": \"Add at least one ledger item per substantive risk/redline (e.g., about disclosure scope, term, governing law) or mark that no external evidence is required for this skill task.\"}, {\"problem\": \"Checklist items about jurisdiction-specific rules (anti-indemnity, retainage, prompt payment, prevailing wage), flow-down obligations for subcontractors, NNN matrix, ratification clause, ADS defaults, and Pakistan labour law are not addressed or explicitly marked as not applicable, even though they are inapposite to an NDA.\", \"fix\": \"Explicitly state these checklist items are not applicable to this NDA review or mark them as [TBD]/[BLANK] with a short note.\"}, {\"problem\": \"The checklist requires that governing law and jurisdiction be identified; the report discusses governing law (Delaware) but does not identify or recommend a jurisdiction/venue clause beyond a bracketed note.\", \"fix\": \"Add a concrete suggested jurisdiction/venue clause or explicitly mark jurisdiction as [CONFIRM WITH CLIENT]/[TBD].\"}, {\"problem\": \"The checklist requires market-standard benchmarks to be applied, but the report does not explicitly reference or apply any stated benchmark standard; it only gives conceptual suggestions.\", \"fix\": \"Add a brief statement tying the suggested term, disclosure controls, and governing law language to market-standard NDA practice, or mark benchmark comparison as [TBD].\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 2011,
+    "completion_tokens": 327,
+    "total_tokens": 2338
+  }
+}

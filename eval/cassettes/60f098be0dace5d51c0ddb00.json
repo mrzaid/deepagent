@@ -1,0 +1,9 @@
+{
+  "content": "Heirloom uses a mineral-based direct air capture process that accelerates the natural carbonation of limestone. They heat limestone powder in a renewable-powered kiln to strip out CO2 (which is then permanently stored underground or in concrete), then rehydrate the remaining calcium oxide to form \u201clime\u201d that rapidly reabsorbs CO2 from the air on vertically stacked trays in under three days. This material is cycled repeatedly, reducing both costs and the amount of fresh limestone needed. A recent milestone is the launch of what they describe as America\u2019s first commercial DAC facility in Tracy, California, with a community governance model starting in early 2024.",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 480,
+    "completion_tokens": 137,
+    "total_tokens": 617
+  }
+}

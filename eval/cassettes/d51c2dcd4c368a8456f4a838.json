@@ -1,0 +1,9 @@
+{
+  "content": "Claude\u2019s latest flagship models (Claude Opus 4.6/4.7/4.8, Claude Sonnet 4.6, Claude Fable 5, Claude Mythos 5, and Claude Mythos Preview) support a 1M\u2011token context window; most other current Claude models (e.g., Sonnet 4.5, Haiku 4.5) have a 200k\u2011token window. All request elements count toward this limit, including system prompts, full message history, tool definitions and results, images/PDFs (up to 600 pages/images for 1M\u2011context models, 100 for 200k), and all output tokens, including \u201cextended thinking\u201d tokens. Anthropic notes that as context length grows, \u201ccontext rot\u201d occurs\u2014accuracy and recall degrade\u2014so more context is not automatically better and careful curation, summarization, and compaction are important. To mitigate long\u2011context issues, they provide server\u2011side compaction (beta on several 1M\u2011context models), context awareness/task budgets, and recommend token counting and context editing to keep prompts within limits and maintain quality.",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 1861,
+    "completion_tokens": 245,
+    "total_tokens": 2106
+  }
+}

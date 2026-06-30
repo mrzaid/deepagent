@@ -1,0 +1,9 @@
+{
+  "content": "The page explains Tavily\u2019s API rate limits, which differ by environment. Development keys are limited to 100 requests per minute, suitable for testing and integration work. Production keys allow 1,000 requests per minute to support live, higher-traffic applications. It also notes that the crawl endpoint has its own separate rate limit that applies to both environments (details not shown in the provided text).",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 272,
+    "completion_tokens": 88,
+    "total_tokens": 360
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Checklist items about jurisdiction-specific rules, flow-downs for subcontractors, NNN matrix, ratification clause, ADS defaults, and Pakistan labour law are not addressed at all in the draft, even to mark them as [BLANK]/[TBD].\", \"fix\": \"Explicitly note each inapplicable checklist item as [TBD]/[BLANK]/not applicable for this NDA so the checklist is fully satisfied.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 2093,
+    "completion_tokens": 109,
+    "total_tokens": 2202
+  }
+}

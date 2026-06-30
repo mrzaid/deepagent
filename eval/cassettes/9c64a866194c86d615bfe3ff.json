@@ -1,0 +1,19 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_21PcLyESHTiv85ORRaPABs1K",
+      "name": "record_finding",
+      "args": {
+        "claim": "Charm Industrial removes carbon dioxide by taking agricultural residues (cellulosic biomass), converting them via fast pyrolysis into a carbon\u2011rich bio\u2011oil, and then transporting and injecting this low\u2011energy bio\u2011oil into EPA\u2011regulated deep wells where it sinks, solidifies, and is stored underground for millennia, providing durable carbon removal.",
+        "source_url": "https://charmindustrial.com",
+        "quote": "Charm removes CO\u2082 from the atmosphere by converting biomass into a stable, carbon-rich liquid and pumping it deep underground... We take agricultural residues (cellulosic biomass) and convert them into a carbon-rich liquid called bio-oil via fast pyrolysis. We then transport the bio-oil to injection wells that are regulated by the EPA, where it sinks and solidifies, storing carbon safely underground for thousands to millions of years."
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2360,
+    "completion_tokens": 188,
+    "total_tokens": 2548
+  }
+}

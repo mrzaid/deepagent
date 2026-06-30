@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Evidence ledger is empty, but the draft makes multiple substantive statements about what is 'typical', 'more standard', or 'unusual' in NDAs without any supporting ledger items.\", \"fix\": \"Either add ledger items supporting market-standard characterizations or remove/soften those statements so they are clearly opinion-based, not evidence-based.\"}, {\"problem\": \"The SKILL validation checklist items (anti-indemnity, retainage, prompt payment, prevailing wage, flow-down, NNN matrix, ratification clause, ADS/Pakistan table) are not all satisfied or explicitly marked as [BLANK]/[TBD].\", \"fix\": \"Explicitly mark each non-applicable checklist item as [TBD] or explain its inapplicability, rather than leaving them unaddressed.\"}, {\"problem\": \"The checklist requires an attorney-review disclaimer at the top of the output, but the disclaimer appears after introductory text rather than clearly at the top.\", \"fix\": \"Move or repeat the attorney-review disclaimer so it is the first line or clearly at the very top of the report.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 2341,
+    "completion_tokens": 245,
+    "total_tokens": 2586
+  }
+}

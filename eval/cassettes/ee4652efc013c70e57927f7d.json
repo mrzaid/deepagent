@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_TZn2BAg6BqE9nAoE1gj4eodY",
+      "name": "web_search",
+      "args": {
+        "query": "OpenAI GPT-4.1 context window official OpenAI API documentation",
+        "commentary": true
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2279,
+    "completion_tokens": 41,
+    "total_tokens": 2320
+  }
+}

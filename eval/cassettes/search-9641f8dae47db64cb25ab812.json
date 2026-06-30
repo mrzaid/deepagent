@@ -1,0 +1,41 @@
+{
+  "kind": "search",
+  "key": "OpenAI GPT-4.1 context window size 2024|5",
+  "value": [
+    {
+      "url": "https://www.facebook.com/groups/aifire.co/posts/1693078557964113",
+      "title": "OpenAI releases GPT-4.1 with 1 million token context window",
+      "content": "These models come with a 1 million token context window \u2014 that's roughly 750,000 words in one go. To put it in perspective, that's longer than \u201c",
+      "score": 0.73914057,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.reddit.com/r/OpenAI/comments/1l236t2/has_anyone_confirmed_that_gpt41_has_a_1_million",
+      "title": "Has anyone confirmed that GPT-4.1 has a 1 million token context ...",
+      "content": "According to the description on OpenAI's website, GPT-4.1 and GPT-4.1-mini both have a context window length of 1 million tokens.",
+      "score": 0.69697046,
+      "raw_content": null
+    },
+    {
+      "url": "https://community.openai.com/t/large-context-window-what-are-you-using-it-for/1241320",
+      "title": "Large context window \u2014 what are you using it for? - Community - OpenAI Developer Community",
+      "content": "Was just reminded that GPT-4.1 has the largest context window of all the OpenAI models \u2014 up to 1,047,576 tokens. I\u2019ve not done anything yet\u2026 but I\u2019m excited to send some of my longer novels (100k+ words) and see if I can get some good info on them. But will definitely try to see if it can be used in doc generations based on large API definitions and database schemas. Hey Edwin, just was playing with this documentation and from what I saw, unfortunately the large context window even if used only to provide context info, does not bring better results when used in specific tasks (several files concatenated, containing tech info) : task was to generate a documentation for an entity in the database- fields, purpose, translations, along with its relations and business logic. Even if all the info was available in the context and the expected output was under 5k tokens, the GPT4.1 fails to consider the required context and zaps a lot of otherwise simple elements from it.",
+      "score": 0.6964752,
+      "raw_content": null
+    },
+    {
+      "url": "https://learn.microsoft.com/en-ca/answers/questions/2280883/azure-openai-model-gpt-4-1-context-window-exceeded",
+      "title": "Azure OpenAI Model: gpt-4.1 context window exceeded with way ...",
+      "content": "# Azure OpenAI Model: gpt-4.1 context window exceeded with way less than 1M tokens. I'm having trouble using a large context window with gpt-4.1. gpt-4.1 is known for having a 1M token context window. I'd like to know what is the actual maximum context window of gpt-4.1 within Azure. When this rate is exceeded, I get another message, so I don't think that's what's preventing me from using the full gpt-4.1 context window. Even though GPT-4.1 supports up to 1 million tokens, in Azure OpenAI, the full 1M-token context is only available on deployments of the gpt-4-1106-preview or newer models where explicitly enabled, and only for certain SKUs and regions. **Understanding GPT-4.1's Context Window in Azure OpenAI**. While GPT-4.1 is advertised to support a context window of up to 1 million tokens, this capability is not universally available across all Azure OpenAI deployments.",
+      "score": 0.64826655,
+      "raw_content": null
+    },
+    {
+      "url": "https://community.openai.com/t/we-need-bigger-context-windows-in-chatgpt/1290633",
+      "title": "We need bigger context windows in ChatGPT - Feature requests",
+      "content": "I love the option to select different models (I hope GPT-5 still gives some flexibility on this), but, as a subscriber to Claude and Gemini, I am forced to use them when dealing with big documents or having a long conversation. Claude\u2019s context window is 200k tokens and Gemini\u2019s is 1M tokens. In comparison, ChatGPT has 8k on the free version, which I can understand as these things are expensive and you want people to subscribe if they\u2019re using it for long tasks. In my opinion, that makes no sense in 2025, especially when the competition is clearly ahead on this issue and OpenAI itself already has models that support longer context windows (up to 1M with 4.1 in the API). 32k is barely usable for long documents/chats, and I feel 200k should be the bare minimum for Plus (even though I\u2019d argue it should be between 500k and 1M \u2013 Gemini and Claude don\u2019t lock their bigger context windows to their highest-priced plan).",
+      "score": 0.61695945,
+      "raw_content": null
+    }
+  ]
+}

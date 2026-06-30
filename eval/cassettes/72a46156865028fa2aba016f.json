@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"No evidence ledger items exist at all, so every substantive claim in the report (founder, founding year, Falcon 1 details, dates, failures, NASA contract, retirement, etc.) is unsupported.\", \"fix\": \"Add ledger entries with quotes and URLs that directly support each key claim, then link them explicitly in the report.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 895,
+    "completion_tokens": 90,
+    "total_tokens": 985
+  }
+}

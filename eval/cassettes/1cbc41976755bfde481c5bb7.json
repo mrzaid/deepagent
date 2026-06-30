@@ -1,0 +1,9 @@
+{
+  "content": "{\"relevance\":3,\"grounding\":5,\"completeness\":2,\"coherence\":5,\"comment\":\"Highly grounded and clearly written, but only partially answers the goal because it omits Claude details and any discussion of practical trade-offs of long contexts.\"}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 1248,
+    "completion_tokens": 63,
+    "total_tokens": 1311
+  }
+}

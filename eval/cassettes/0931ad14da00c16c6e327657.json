@@ -1,0 +1,9 @@
+{
+  "content": "The article is a 2019 review on early-onset Alzheimer\u2019s disease (EOAD), emphasizing that EOAD is often driven by autosomal dominant mutations (APP, PSEN1, PSEN2) and may have distinct clinical and pathological features from late-onset AD. It highlights that EOAD patients are being prioritized in trials of disease-modifying therapies, especially anti-amyloid approaches (e.g., monoclonal antibodies, \u03b2- and \u03b3-secretase modulators) and prevention trials in presymptomatic mutation carriers. The review also notes interest in tau-targeted therapies and other pathway-based interventions (e.g., targeting synaptic dysfunction and neuroinflammation), though these are mostly in early-phase or preclinical stages. Overall, the paper frames EOAD as a key population for testing mechanism-based treatments and prevention strategies due to its clearer genetic etiology and predictable disease course.",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 111,
+    "completion_tokens": 187,
+    "total_tokens": 298
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "kind": "fetch",
+  "key": "https://www.axios.com/2023/05/18/major-carbon-removal-deal",
+  "error": "failed to fetch https://www.axios.com/2023/05/18/major-carbon-removal-deal: 403 Client Error: Forbidden for url: https://www.axios.com/2023/05/18/major-carbon-removal-deal"
+}

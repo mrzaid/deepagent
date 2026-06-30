@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_VfargEitYKgFObBntsAWfycA",
+      "name": "web_search",
+      "args": {
+        "query": "SpaceX founded 2002 founder Elon Musk Falcon 1 program timeline"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1414,
+    "completion_tokens": 36,
+    "total_tokens": 1450
+  }
+}

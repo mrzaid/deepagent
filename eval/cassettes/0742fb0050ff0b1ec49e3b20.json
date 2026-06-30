@@ -1,0 +1,24 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_ERqoH5fJiio0PL70v1uMhxBQ",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6538053"
+      }
+    },
+    {
+      "id": "call_XrupwGdxV9XacngvwAad8R6Z",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://www.mdpi.com/2079-9721/12/6/110"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1813,
+    "completion_tokens": 85,
+    "total_tokens": 1898
+  }
+}

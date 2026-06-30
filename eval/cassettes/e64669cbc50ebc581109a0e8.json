@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_2EvkoHlu2i1cSm9Hb2qqcRQm",
+      "name": "web_search",
+      "args": {
+        "query": "OpenAI GPT-4.1 context window 1 million tokens site:openai.com"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3239,
+    "completion_tokens": 40,
+    "total_tokens": 3279
+  }
+}

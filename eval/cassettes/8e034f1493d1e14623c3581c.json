@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"All Anthropic/Claude-specific claims (context tiers, model examples, page/image limits, context-rot discussion, compaction feature, etc.) rely on a ledger source [2] that is not actually present in the evidence ledger.\", \"fix\": \"Either add the missing Anthropic documentation as a ledger item with supporting quotes, or remove/soften all Claude-related and Anthropic-specific claims.\"}, {\"problem\": \"Several detailed OpenAI claims (training to attend across full 1M window, specific long-context benchmarks, latency numbers at 128k and 1M, prompt caching guidance, multi-needle/multi-hop caveats) are not supported by the single GPT-4.1 ledger quote, which only mentions 1M vs 128k context.\", \"fix\": \"Add additional GPT-4.1 documentation ledger items with quotes for benchmarks, latency, caching, and reasoning limitations, or delete/qualify those unsupported details.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 3368,
+    "completion_tokens": 215,
+    "total_tokens": 3583
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_aQFzOyfVO52F2uIxkOqgGc5Y",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://charmindustrial.com"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2255,
+    "completion_tokens": 28,
+    "total_tokens": 2283
+  }
+}

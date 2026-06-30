@@ -1,0 +1,19 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_j7pIZXjcPAAa0MZ3icYfWgZd",
+      "name": "record_finding",
+      "args": {
+        "claim": "Tavily offers three main APIs for AI agents: a Search API (AI-focused web search with scraping and optional LLM-generated responses), an Extract API (scrape and extract data from up to 20 URLs per call), and a Crawl API (map and crawl domains).",
+        "source_url": "https://docs.tavily.com/faq/faq",
+        "quote": "Tavily is a set of APIs built for AI agents... We currently offer three main APIs: Search, Extract, and Crawl. The Search API is an AI-focused search engine that includes scraping and optional LLM-generated responses. The Extract API lets you scrape and extract data from up to 20 URLs per call. The Crawl API allows you to map and crawl entire domains."
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2438,
+    "completion_tokens": 173,
+    "total_tokens": 2611
+  }
+}

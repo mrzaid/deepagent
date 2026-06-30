@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_FtqM90aHNbVybfX25KXv8btd",
+      "name": "write_note",
+      "args": {
+        "name": "draft_core_structure",
+        "content": "TITLE: FIRST AMENDMENT TO COMMERCIAL LEASE AGREEMENT\n\nThis FIRST AMENDMENT TO COMMERCIAL LEASE AGREEMENT (this \"Amendment\") is made as of [TBD] (the \"Effective Date\"), by and between [TBD], a [TBD] (\"Landlord\"), and [TBD], a [TBD] (\"Tenant\"). Landlord and Tenant are sometimes referred to individually as a \"Party\" and collectively as the \"Parties.\"\n\nRECITALS\n\nA. Landlord and Tenant are parties to that certain Commercial Lease Agreement dated as of [TBD] (the \"Lease\"), pursuant to which Tenant leases from Landlord certain premises located at [TBD] (the \"Premises\").\n\nB. The Parties desire to amend the Lease solely to modify the amount of the monthly Base Rent payable under the Lease, and to confirm that, except as expressly set forth in this Amendment, all other terms and conditions of the Lease remain unchanged and in full force and effect.\n\nC. Capitalized terms used but not defined in this Amendment shall have the meanings given to them in the Lease.\n\nNOW, THEREFORE, in consideration of the mutual covenants and agreements contained in this Amendment and in the Lease, and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, Landlord and Tenant agree as follows:"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2345,
+    "completion_tokens": 325,
+    "total_tokens": 2670
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Heirloom is discussed extensively (core method, milestones, comparative points) but there is no corresponding evidence ledger item for Heirloom; all Heirloom claims are therefore ungrounded.\", \"fix\": \"Add at least one Heirloom-specific ledger item that supports its mineral DAC process and any mentioned deployment/milestone, or remove/trim Heirloom sections to only what can be supported.\"}, {\"problem\": \"Several comparative and contextual claims (e.g., Climeworks storing CO\u2082 as compressed gas/dissolved form, siting considerations, Charm\u2019s growing enterprise purchases and offtake agreements, regional suitability, and Heirloom\u2019s facility siting and mineral storage form) are not supported by any ledger quotes.\", \"fix\": \"Either supply ledger items that explicitly support these deployment, permanence-form, and market-context statements, or delete/soften them to stay within what the existing quotes state.\"}, {\"problem\": \"The goal requires a recent milestone for each company, but for all three the report explicitly states that no specific, dated or quantified milestone is supported by the fetched sources, leaving this part of the goal unmet.\", \"fix\": \"Fetch and cite concrete, dated milestones for each company (e.g., plant openings, tons removed, major contracts) and summarise one per company, or clearly narrow the goal to exclude milestones.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 1566,
+    "completion_tokens": 298,
+    "total_tokens": 1864
+  }
+}

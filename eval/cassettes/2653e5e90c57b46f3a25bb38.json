@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Multiple substantive claims about EOAD genetics, autosomal dominant mutations (APP, PSEN1, PSEN2), mechanistic links to amyloid overproduction, and EOAD being a key/preferred population for mechanism-based and prevention trials are attributed to [1] but are not supported by the only ledger quote, which mentions only the age cutoff and 5\u201310% prevalence.\", \"fix\": \"Either add ledger items with quotes supporting the genetic, mechanistic, and trial-prioritization claims, or delete/soften those statements to stay within what the existing quote supports.\"}, {\"problem\": \"Detailed descriptions of anti-amyloid, anti-tau, and other pathway-based therapeutic strategies (monoclonal antibodies, BACE/\u03b3-secretase modulators, synaptic/neuroinflammation targets, prevention trials in presymptomatic carriers, biomarker work) are all tied to [1] without any ledger quotes showing that the source actually discusses these categories or their relevance to EOAD.\", \"fix\": \"Provide additional ledger entries with specific quotes from [1] (or other sources) that mention these therapeutic classes and EOAD-focused trials, or clearly mark them as general AD research directions not specifically sourced to [1].\"}, {\"problem\": \"The report ranks approaches as \\\"most advanced\\\" or \\\"emerging\\\" and asserts that anti-amyloid therapies are the leading disease-modifying strategies being actively tested in EOAD populations, but no ledger evidence supports these comparative or evaluative claims.\", \"fix\": \"Add ledger items that explicitly characterize the development stage and prominence of these therapies in EOAD, or remove the ranking language and limit statements to what is directly supported.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 1959,
+    "completion_tokens": 363,
+    "total_tokens": 2322
+  }
+}

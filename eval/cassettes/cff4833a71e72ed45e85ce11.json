@@ -1,0 +1,24 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_6SYT96bb8dgX1dGrviHakHPl",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://tavily.com"
+      }
+    },
+    {
+      "id": "call_vq41XY9wsAx2xgIqYNdHLWp7",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://www.tavily.com/pricing"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1666,
+    "completion_tokens": 66,
+    "total_tokens": 1732
+  }
+}

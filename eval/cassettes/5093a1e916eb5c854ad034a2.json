@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"No evidence ledger items exist to support any statements or drafting choices in the report.\", \"fix\": \"Add at least one ledger item or acknowledge explicitly that no factual inputs beyond the goal were provided and that all deal-specific items remain [TBD].\"}, {\"problem\": \"Checklist item 'NNN maintenance matrix populated' is not satisfied; the draft only says existing allocation remains unchanged and does not populate any matrix.\", \"fix\": \"Insert an explicit note that the NNN/maintenance matrix is not populated and must be completed from the Base Lease or left as [TBD].\"}, {\"problem\": \"Checklist item 'ADS fixed defaults applied and Pakistan labour law compliance table checked (Pipeline G only)' is not addressed anywhere in the draft.\", \"fix\": \"Add a short clause or note confirming whether ADS defaults and Pakistan labour law compliance are inapplicable or, if applicable, are [TBD] and require attorney completion.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 2731,
+    "completion_tokens": 208,
+    "total_tokens": 2939
+  }
+}

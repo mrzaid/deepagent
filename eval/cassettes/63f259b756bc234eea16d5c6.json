@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_NOKjzddjz8UI3MFKdvAoCIst",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://www.lucensoftware.com/blog/spacex-timeline"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2720,
+    "completion_tokens": 36,
+    "total_tokens": 2756
+  }
+}

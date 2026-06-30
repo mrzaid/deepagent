@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_Bga1b67YeLNLo5F6jAFjnW0g",
+      "name": "read_reference",
+      "args": {
+        "name": "paralegal",
+        "path": "contract-review.md"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1994,
+    "completion_tokens": 31,
+    "total_tokens": 2025
+  }
+}

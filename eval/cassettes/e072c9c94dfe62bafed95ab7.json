@@ -1,0 +1,9 @@
+{
+  "content": "{\"relevance\":2,\"grounding\":5,\"completeness\":1,\"coherence\":5,\"comment\":\"The report is honest and well-structured but largely irrelevant and incomplete because it does not summarize any findings, though it is fully grounded in the absence of data.\"}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 66,
+    "total_tokens": 288
+  }
+}

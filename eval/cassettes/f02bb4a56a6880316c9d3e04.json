@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_eJoO5U3J4sJT9wxGnRydrRg0",
+      "name": "web_search",
+      "args": {
+        "query": "Climeworks direct air capture core technology recent milestone 2024 2023",
+        "topn": 5
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1408,
+    "completion_tokens": 43,
+    "total_tokens": 1451
+  }
+}

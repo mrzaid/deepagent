@@ -1,0 +1,9 @@
+{
+  "content": "Tavily offers a range of pricing plans based on monthly API credits and usage needs, from a free tier to enterprise. The Free \u201cResearcher\u201d plan includes 1,000 credits/month, while paid fixed plans scale up: Project ($30, 4,000 credits), Bootstrap ($100, 15,000), Startup ($220, 38,000), and Growth ($500, 100,000), all with higher rate limits and email support. A Pay-As-You-Go option charges $0.008 per credit with no base fee, and an Enterprise plan provides custom pricing, custom API calls/rate limits, and enterprise-grade support/security. Plans can be upgraded or changed anytime via the Billing page.",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 643,
+    "completion_tokens": 155,
+    "total_tokens": 798
+  }
+}

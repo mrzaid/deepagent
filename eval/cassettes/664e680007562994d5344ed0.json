@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_dSV7ClBIH5B1tCgUnpeK1pE8",
+      "name": "write_note",
+      "args": {
+        "name": "rent_and_ratification_draft",
+        "content": "SECTION 1. MODIFICATION OF BASE RENT.\n\n1.1 Base Rent. Notwithstanding anything to the contrary in the Lease, effective as of [TBD] (the \"Rent Adjustment Date\"), the monthly Base Rent payable by Tenant to Landlord under the Lease for the Premises shall be [TBD] Dollars ($[TBD]) per month (the \"Adjusted Base Rent\").\n\n1.2 No Other Rent Changes. Except as expressly set forth in Section 1.1 above, all other provisions of the Lease relating to the payment of rent or other amounts by Tenant, including without limitation any provisions regarding additional rent, operating expenses, common area maintenance charges, taxes, insurance, utilities, late charges, interest, and any rent escalation or adjustment formulas, shall remain unmodified and in full force and effect.\n\nSECTION 2. RATIFICATION; NO OTHER CHANGES.\n\n2.1 Ratification. Except as expressly modified by this Amendment, the Lease (including any exhibits, addenda, and prior amendments, if any) is hereby ratified, confirmed, and approved in all respects and shall remain in full force and effect in accordance with its terms. From and after the Effective Date, all references in the Lease and in any other documents or instruments relating to the Lease shall be deemed to refer to the Lease as modified by this Amendment.\n\n2.2 No Other Modifications. Landlord and Tenant acknowledge and agree that, other than the modification to the Base Rent expressly set forth in Section 1 of this Amendment, no other term, covenant, condition, or provision of the Lease is amended, modified, or waived by this Amendment, whether by implication or otherwise.\n\n2.3 Conflicts. In the event of any conflict or inconsistency between the terms and provisions of this Amendment and the terms and provisions of the Lease, the terms and provisions of this Amendment shall control with respect to the subject matter hereof, and the terms and provisions of the Lease shall otherwise control in all other respects."
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2344,
+    "completion_tokens": 448,
+    "total_tokens": 2792
+  }
+}

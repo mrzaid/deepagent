@@ -1,0 +1,8 @@
+{
+  "kind": "fetch",
+  "key": "https://www.tavily.com/pricing",
+  "value": [
+    "Tavily",
+    "/pricing plans\nFind a plan to power your AI Agents\nResearcher\nFree\n/ monthFor new creators\n1,000 API credits / month\nNo credit card required\nEmail support\nPay As You Go\n$0.008\n/ creditFor flexible usage\nPay only for what you use\nCancel anytime\nEmail support\nProject\n$01234567890123456789\n/ monthBuilt for enthusiasts\n4,000 API credits / month\nHigher rate limits\nEmail support\nEnterprise\nCustom\nFor corporations\nCustom API calls\nCustom rate limits\nEnterprise-grade support and SLAs\nEnterprise-grade security and privacy\nFree for students\nWe're dedicated to supporting the pursuit of knowledge by offering our service at no cost for students."
+  ]
+}

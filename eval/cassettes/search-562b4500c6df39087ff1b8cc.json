@@ -1,0 +1,41 @@
+{
+  "kind": "search",
+  "key": "Anthropic Claude 3.5 context window tokens official documentation|5",
+  "value": [
+    {
+      "url": "https://prompt.16x.engineer/blog/claude-sonnet-gpt4-context-window-token-limit",
+      "title": "Claude 3.5 Sonnet vs GPT-4o: Context Window and Token Limit | 16x Prompt",
+      "content": "# Claude 3.5 Sonnet vs GPT-4o: Context Window and Token Limit. As large language models improve, their abilities are often affected by two key factors: the context window and token limit. In this post, we'll compare the latest models from OpenAI and Anthropic in terms of their context window and token limits. | GPT-4o via ChatGPT | 4,096 tokens to 8,192 tokens (empirical) | 4,096 tokens to 8,192 tokens (empirical) |. > Claude 3.5 Sonnet output token limit is 8192 in beta and requires the header `anthropic-beta: max-tokens-3-5-sonnet-2024-07-15`. * Claude 3.5 Sonnet metrics via Anthropic's models documentation. Context window refers to the amount of text or code the model can consider when generating responses. Claude 3.5 Sonnet has a large context window of 200,000 tokens. For output token limits, Claude 3.5 Sonnet has a maximum output of 4,096 tokens. GPT-4o via ChatGPT has a limited context window of 4,096 to 8,192 tokens.",
+      "score": 0.7917732,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.rewarx.com/blogs/claude-35-context-window-limit",
+      "title": "What Is the Claude 3.5 Context Window and Why It Matters",
+      "content": "# What Is the Claude 3.5 Context Window and Why It Matters. When working with advanced AI models, the amount of text you can process in a single conversation depends largely on the context window size. Claude 3.5 from Anthropic offers an impressive context window that determines how much information the model can consider when generating responses. The context window refers to the total number of tokens\u2014both input and output\u2014that an AI model can handle at once. If your content exceeds this limit, the model may lose track of earlier information, produce inconsistent responses, or simply stop processing additional requests until the conversation is reset. Maximum tokens supported by Claude 3.5 Sonnet in a single context window. For most practical uses, the Claude 3.5 context window provides ample space for handling substantial documents, lengthy conversations, and complex coding tasks. **Important:** When you approach the context window limit, earlier parts of your conversation may be forgotten or weighted less heavily in the model's responses.",
+      "score": 0.77994305,
+      "raw_content": null
+    },
+    {
+      "url": "https://repost.aws/questions/QUh5t0kGHIRdajNCDm1UHZxA/issue-with-bedrock-claude-sonnet-3-5",
+      "title": "Issue with Bedrock- Claude Sonnet 3.5 | AWS re:Post",
+      "content": "# Issue with Bedrock- Claude Sonnet 3.5. I was checking out Claude Sonnet 3.5 using bedrock. But I seem to get unfinished answers from Sonnet 3.5 It states the end reason as max token limit or something similar. Input context window is 200,000 tokens but as you are generating tokens to answer your question you are most likely hitting output token limits which are 4096 tokens see Anthropic user guide for more details. For Claude 3.5 Sonnet on Bedrock if you are using on-demand provisioning you have both a requests per minute and tokens per minute limit you need to remain under. In AI models, a token is a chunk of text that the model reads at a time. * Claude Sonnet 4.5 on Bedrock incorrectly identifies as Claude 3.5 Sonnet with April 2024 knowledge cutoff. * How do I enable access to Anthropic Claude models on Amazon Bedrock?",
+      "score": 0.7154444,
+      "raw_content": null
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+      "title": "Context windows - Claude Platform Docs",
+      "content": "We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. This is different from the large corpus of data the language model was trained on, and instead represents a \"working memory\" for the model. ## \ue09a The context window with extended thinking and tool use. When using extended thinking, all input and output tokens, including the tokens used for thinking, count toward the context window limit, with a few nuances in multi-turn situations. The diagram below demonstrates the specialized token management when extended thinking is enabled:. Context window diagram with extended thinking and tool use. Context window diagram with extended thinking. You can read more about the context window and extended thinking in the extended thinking guide. ## \ue09a The context window with extended thinking. The diagram below illustrates the context window token management when combining extended thinking with tool use:. For more information about using tools with extended thinking, see the extended thinking guide.",
+      "score": 0.6638657,
+      "raw_content": null
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/about-claude/glossary",
+      "title": "Glossary - Claude Platform Docs",
+      "content": "The \"context window\" refers to the amount of text a language model can look back on and reference when generating new text. This is different from the large corpus of data the language model was trained on, and instead represents a \"working memory\" for the model. Fine-tuning is the process of further training a pretrained language model using additional data. Fine-tuning can be useful for adapting a language model to a specific domain, task, or writing style, but it requires careful consideration of the fine-tuning data and the potential impact on the model's performance and biases. Latency, in the context of generative AI and large language models, refers to the time it takes for the model to respond to a given prompt. Claude is a conversational assistant based on a large language model that has been fine-tuned and trained using RLHF to be more helpful, honest, and harmless.",
+      "score": 0.62934244,
+      "raw_content": null
+    }
+  ]
+}

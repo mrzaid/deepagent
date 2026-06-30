@@ -1,0 +1,9 @@
+{
+  "content": "Charm Industrial removes carbon by converting agricultural residues (cellulosic biomass) into a carbon\u2011rich bio\u2011oil via fast pyrolysis, then transporting and injecting this low\u2011energy bio\u2011oil into EPA\u2011regulated deep wells where it sinks, solidifies, and is stored for millennia. This approach leverages plants\u2019 natural CO\u2082 uptake and stabilizes that carbon underground, avoiding risks from wildfires, soil erosion, or land\u2011use change. A recent milestone highlighted on the site is growing enterprise purchases and long\u2011term offtake agreements, which are enabling Charm to expand its permanent removal capacity and associated co\u2011benefits at larger scale.",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 434,
+    "completion_tokens": 139,
+    "total_tokens": 573
+  }
+}

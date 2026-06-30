@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_jW3lHtYKoxIiPTvAQamjrS8J",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://en.wikipedia.org/wiki/SpaceX"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1698,
+    "completion_tokens": 31,
+    "total_tokens": 1729
+  }
+}

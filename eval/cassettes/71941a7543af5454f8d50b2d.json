@@ -1,0 +1,9 @@
+{
+  "content": "SpaceX (Space Exploration Technologies Corporation) was founded by Elon Musk in 2002 with the goal of reducing spaceflight costs and enabling human colonization of Mars. Its first orbital launch vehicle, Falcon 1, was a small, expendable two\u2011stage rocket developed with about $90\u2013100 million of internal funding. Falcon 1 suffered three consecutive launch failures between 2006 and 2008, nearly bankrupting the company, before achieving its first successful orbital launch on the fourth attempt on September 28, 2008\u2014making SpaceX the first private company to develop and launch a liquid-fueled rocket to orbit. Falcon 1 flew only one more successful mission (its fifth launch) in July 2009 before being retired so SpaceX could focus resources on developing the larger Falcon 9.",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 4453,
+    "completion_tokens": 173,
+    "total_tokens": 4626
+  }
+}

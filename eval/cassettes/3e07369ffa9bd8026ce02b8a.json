@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_lLOQHrjmFcYmfbq7YbTztuld",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://tech-insider.org/rust-vs-go"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2724,
+    "completion_tokens": 33,
+    "total_tokens": 2757
+  }
+}

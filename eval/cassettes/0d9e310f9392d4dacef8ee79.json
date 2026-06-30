@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Attorney-review / no-legal-advice disclaimer is not included at the top of the document as required by the checklist; it appears near the end instead.\", \"fix\": \"Move or duplicate the attorney-review disclaimer section to the beginning of the amendment, before the title or immediately after it.\"}, {\"problem\": \"Jurisdiction is not fully identified: governing law state is marked [TBD] and there is no jurisdiction/venue clause, while the checklist requires both governing law and jurisdiction identified.\", \"fix\": \"Add a forum selection / venue clause specifying courts/jurisdiction, and replace [TBD] with the applicable state or mark as [TBD jurisdiction].\"}, {\"problem\": \"Several checklist items are not addressed at all (market-standard benchmarks, jurisdiction-specific rules, flow-down obligations, NNN maintenance matrix, ADS defaults/Pakistan labour law table), even if only to note they are not applicable.\", \"fix\": \"Explicitly confirm applicability or non-applicability of each checklist item in the draft or in a short preface (e.g., \\\"Not applicable to this commercial lease amendment\\\"), or incorporate the required checks where relevant.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 2244,
+    "completion_tokens": 255,
+    "total_tokens": 2499
+  }
+}

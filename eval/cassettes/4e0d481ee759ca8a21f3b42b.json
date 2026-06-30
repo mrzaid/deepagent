@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Many detailed platform/integration claims (high throughput/low latency, security/privacy features like PII protection and prompt\u2011injection defenses, scalability to hundreds of millions of requests, specific SDKs and integrations) are not supported by any ledger quote.\", \"fix\": \"Remove or soften these implementation/integration details or add ledger items with quotes explicitly mentioning them.\"}, {\"problem\": \"Specific pricing tier details (Project $30/4,000 credits; Bootstrap $100/15,000; Startup $220/38,000; Growth $500/100,000; free for students; email support on specific plans; per\u2011credit effective price range $0.0075\u2013$0.005; plan change behavior and proration) are not backed by any ledger quote.\", \"fix\": \"Either delete these granular pricing details or add ledger items with exact quotes for each stated price, credit amount, student offer, support level, and proration rule.\"}, {\"problem\": \"Rate\u2011limit section (100 RPM dev keys, 1,000 RPM production keys, separate crawl endpoint limits, higher limits on paid plans) is not supported by any ledger quote.\", \"fix\": \"Remove the concrete RPM numbers and crawl\u2011limit statements or add a ledger item quoting the rate\u2011limits help article.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 2136,
+    "completion_tokens": 284,
+    "total_tokens": 2420
+  }
+}

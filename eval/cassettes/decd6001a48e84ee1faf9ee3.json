@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_1GvEtA8O1y0Gq2Dgry1eEzC1",
+      "name": "web_search",
+      "args": {
+        "query": "Falcon 1 launch history timeline first flight first success retirement"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2192,
+    "completion_tokens": 34,
+    "total_tokens": 2226
+  }
+}

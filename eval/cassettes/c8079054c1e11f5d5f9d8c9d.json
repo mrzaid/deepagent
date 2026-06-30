@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Evidence ledger is empty, but the draft makes multiple substantive statements about what is \\\"unusual\\\", \\\"common\\\", or \\\"market\\\" (e.g., term structures, Delaware law being common, 2\u20135/3\u20137 year ranges) without any supporting ledger items.\", \"fix\": \"Remove or soften market-standard characterizations or add ledger items that support each such statement.\"}, {\"problem\": \"Checklist item \\\"Attorney-review disclaimer included at top of output\\\" is not satisfied; the disclaimer appears only at the end.\", \"fix\": \"Move or duplicate the attorney-review disclaimer so that it appears clearly at the top of the report.\"}, {\"problem\": \"Checklist items about jurisdiction-specific rules, flow-down obligations, NNN matrix, ratification clause, ADS defaults, and Pakistan labour law table are not addressed at all.\", \"fix\": \"Explicitly note each inapplicable checklist item as not applicable to this NDA clause, or confirm they are satisfied elsewhere.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 2301,
+    "completion_tokens": 217,
+    "total_tokens": 2518
+  }
+}

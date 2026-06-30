@@ -1,0 +1,9 @@
+{
+  "content": "Charm Industrial\u2019s core method is converting waste biomass from farms, ranches, and forests into a carbon\u2011rich bio\u2011oil via pyrolysis, then injecting that bio\u2011oil deep underground in existing wells for long\u2011term geological storage, effectively acting as a \u201creverse oil company.\u201d A key milestone reported in this release (Oct 2021) is surpassing 5,000 metric tons of CO\u2082e permanently removed since January of that year, claimed as the largest permanent carbon removal delivery to date. This total includes earlier deliveries to Stripe and Shopify plus new deliveries to Microsoft and a range of other corporate and individual buyers. The company emphasizes that these purchases help scale pyrolyzer production and drive down future costs, and advocates for expanded 45Q tax credits to accelerate engineered carbon removal.",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 662,
+    "completion_tokens": 167,
+    "total_tokens": 829
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_MvUZ095iHH5btHSwaVEKtkeR",
+      "name": "update_plan",
+      "args": {
+        "steps": [
+          {
+            "text": "Review the existing mutual NDA draft note and identify any gaps or issues against the intended structure and Washington-governed mutual NDA context.",
+            "status": "done"
+          },
+          {
+            "text": "Revise and complete the full mutual NDA draft in the scratchpad, ensuring all unknown fields remain marked [BLANK] and the governing law is Washington.",
+            "status": "active"
+          },
+          {
+            "text": "Review and harden the revised draft against the contract-draft checklist (clarity, defined terms, mutuality, IP, term/termination, remedies, boilerplate, and attorney-review disclaimer).",
+            "status": "pending"
+          },
+          {
+            "text": "Prepare the final NDA draft in clean markdown form, ready for attorney review, with all placeholders clearly bracketed and the disclaimer included.",
+            "status": "pending"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2312,
+    "completion_tokens": 170,
+    "total_tokens": 2482
+  }
+}

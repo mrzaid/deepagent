@@ -1,0 +1,41 @@
+{
+  "kind": "search",
+  "key": "OpenAI GPT-4.1 context window size official documentation|5",
+  "value": [
+    {
+      "url": "https://community.openai.com/t/large-context-window-what-are-you-using-it-for/1241320",
+      "title": "Large context window \u2014 what are you using it for? - Community",
+      "content": "Was just reminded that GPT-4.1 has the largest context window of all the OpenAI models \u2014 up to 1,047,576 tokens. I\u2019ve not done anything yet\u2026 but I\u2019m excited to send some of my longer novels (100k+ words) and see if I can get some good info on them. But will definitely try to see if it can be used in doc generations based on large API definitions and database schemas. Hey Edwin, just was playing with this documentation and from what I saw, unfortunately the large context window even if used only to provide context info, does not bring better results when used in specific tasks (several files concatenated, containing tech info) : task was to generate a documentation for an entity in the database- fields, purpose, translations, along with its relations and business logic. Even if all the info was available in the context and the expected output was under 5k tokens, the GPT4.1 fails to consider the required context and zaps a lot of otherwise simple elements from it.",
+      "score": 0.8396422,
+      "raw_content": null
+    },
+    {
+      "url": "https://community.openai.com/t/context-window-confusion-on-4-1-mini/1246192",
+      "title": "Context window confusion on 4.1 mini - API - OpenAI Developer Community",
+      "content": "# Context window confusion on 4.1 mini. so i use assistant api using 4.1-mini. Screenshot 2025-04-29 at 18.26.28664\u00d7172 2.81 KB. at some point, i got error context length 128k token \u2026. i read on the documentation 4.1 context window is 1M, why this happened? Screenshot 2025-04-29 at 18.26.28. ### Related topics. | Openai agentsdk context length problem  Documentation assistants-api | 0 | 158 | August 8, 2025 |. | GPT-4o context window confusion  API gpt-4 ,\u00a0 api ,\u00a0 error ,\u00a0 gpt-4o | 5 | 61087 | August 4, 2024 |. | Error about token length, max token  Feedback | 1 | 134 | March 25, 2025 |. | Error 400, context length is not 128 is 16k  API gpt-4 ,\u00a0 chatgpt ,\u00a0 api | 4 | 236 | November 5, 2024 |. | Context limit smaller than documented  Bugs realtime | 2 | 593 | February 26, 2025 |. Powered by Discourse, best viewed with JavaScript enabled.",
+      "score": 0.7756902,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.facebook.com/groups/aiquestionsandanswers/posts/1169588361452741",
+      "title": "OpenAI's GPT-4.1 Models and Expanded Context Window - Facebook",
+      "content": "GPT-4o's context window dropped today from 128K tokens to 8K tokens. I'm a paid subscriber, so I should get the full context window. Does anyone",
+      "score": 0.7598145,
+      "raw_content": null
+    },
+    {
+      "url": "https://learn.microsoft.com/en-ca/answers/questions/2280883/azure-openai-model-gpt-4-1-context-window-exceeded",
+      "title": "Azure OpenAI Model: gpt-4.1 context window exceeded with way ...",
+      "content": "# Azure OpenAI Model: gpt-4.1 context window exceeded with way less than 1M tokens. I'm having trouble using a large context window with gpt-4.1. gpt-4.1 is known for having a 1M token context window. I'd like to know what is the actual maximum context window of gpt-4.1 within Azure. When this rate is exceeded, I get another message, so I don't think that's what's preventing me from using the full gpt-4.1 context window. Even though GPT-4.1 supports up to 1 million tokens, in Azure OpenAI, the full 1M-token context is only available on deployments of the gpt-4-1106-preview or newer models where explicitly enabled, and only for certain SKUs and regions. **Understanding GPT-4.1's Context Window in Azure OpenAI**. While GPT-4.1 is advertised to support a context window of up to 1 million tokens, this capability is not universally available across all Azure OpenAI deployments.",
+      "score": 0.69697046,
+      "raw_content": null
+    },
+    {
+      "url": "https://blog.getzep.com/gpt-4-1-and-o4-mini-is-openai-overselling-long-context",
+      "title": "GPT-4.1 and o4-mini: Is OpenAI Overselling Long-Context? - Zep",
+      "content": "Blog / GPT-4.1 and o4-mini: Is OpenAI Overselling Long-Context? # GPT-4.1 and o4-mini: Is OpenAI Overselling Long-Context? We put OpenAI\u2019s latest models through the LongMemEval benchmark\u2014here\u2019s why raw context size alone isn't enough. OpenAI has just released several new models: GPT-4.1, the company's new flagship model, GPT-4.1 mini, and GPT-4.1 nano, alongside the reasoning-focused o3 and o4-mini models. Both GPT-4.1 and o4-mini feature expanded context windows, with GPT-4.1 supporting up to 1 million tokens of context. In that study, Zep showed clear performance gains on the LongMemEval benchmark compared to the common practice of placing all evaluation data directly into the context window. Each conversation in this dataset averages around 115,000 tokens\u2014about 10% of GPT-4.1\u2019s maximum context size of 1 million tokens and roughly half the capacity of o4-mini. We compared these against previously reported results for GPT-4o, GPT-4o-mini, and Zep (powered by GPT-4o). | Question Type | gpt-4o-mini | gpt-4o | gpt-4.1 | gpt-4.1 (mod) | o4-mini | Zep gpt-4o |.",
+      "score": 0.6205532,
+      "raw_content": null
+    }
+  ]
+}

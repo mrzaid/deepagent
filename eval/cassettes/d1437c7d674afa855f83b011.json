@@ -1,0 +1,9 @@
+{
+  "content": "SpaceX (Space Exploration Technologies Corporation) was founded by Elon Musk in 2002 with the goal of making spaceflight more affordable and enabling reusable rockets. Its first rocket, Falcon 1, was a small, two-stage, liquid-fueled launcher powered by the in-house Merlin engine and aimed at placing small satellites into orbit at much lower cost than competitors. Falcon 1\u2019s first launch in March 2006 failed due to a fuel leak and fire, and subsequent launches in March 2007 and August 2008 also failed to reach orbit. In September 2008, Falcon 1 became the first privately developed liquid-fueled rocket to reach Earth orbit, and three months later SpaceX secured a NASA ISS servicing contract worth more than $1 billion, effectively closing the Falcon 1 chapter as the company shifted focus to the larger Falcon 9.",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 1603,
+    "completion_tokens": 183,
+    "total_tokens": 1786
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "content": "{\"relevance\":3,\"grounding\":5,\"completeness\":2,\"coherence\":5,\"comment\":\"Accurately grounded and clearly written, but only partially answers the goal because it omits the requested Falcon 1 milestones.\"}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 378,
+    "completion_tokens": 59,
+    "total_tokens": 437
+  }
+}

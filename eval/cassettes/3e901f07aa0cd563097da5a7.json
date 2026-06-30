@@ -1,0 +1,9 @@
+{
+  "content": "Elon Musk founded SpaceX (Space Exploration Technologies Corp.) on May 6, 2002, driven by his goal of reducing launch costs and ultimately enabling Mars colonization. The Falcon 1 program began with three failed launches between 2006 and 2008: the first failed due to a fuel leak and fire, and the next two suffered issues after stage separation, bringing SpaceX close to bankruptcy. On its fourth attempt, with only minor changes (notably a longer delay between first-stage burnout and second-stage separation), Falcon 1 successfully reached orbit on September 28, 2008, becoming the first privately developed liquid-fueled rocket to do so. This success secured a NASA ISS servicing contract worth over $1 billion and enabled SpaceX to move on to developing the larger Falcon 9.",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 2305,
+    "completion_tokens": 173,
+    "total_tokens": 2478
+  }
+}

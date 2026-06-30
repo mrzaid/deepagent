@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_uMOnHV1Dogp7fa9A68LzFQUb",
+      "name": "web_search",
+      "args": {
+        "query": "Charm Industrial 2024 carbon removal milestone largest permanent delivery",
+        "topn": 5
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3028,
+    "completion_tokens": 38,
+    "total_tokens": 3066
+  }
+}

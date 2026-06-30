@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"Multiple claims about rate limits (100/1,000 requests per minute, separate crawl limit) and their dev/production distinction rely on source [5], which is not present in the evidence ledger.\", \"fix\": \"Remove or soften the rate\u2011limit section, or add a ledger item quoting the specific rate\u2011limit details from the help article.\"}, {\"problem\": \"Claims that enterprise plans include \\\"custom API calls and rate limits\\\" and \\\"enterprise\u2011grade support and security\\\" are not supported by any ledger quote.\", \"fix\": \"Either delete these specific enterprise feature claims or add ledger items with quotes that explicitly mention them.\"}, {\"problem\": \"The report references sources [3] and [4] for pricing details (e.g., free Researcher plan, pay\u2011as\u2011you\u2011go price) but the ledger only contains a single pricing quote that already summarizes these; some cross\u2011citations (e.g., [2],[3],[4]) are redundant or misleading.\", \"fix\": \"Align citations so that each pricing claim is backed only by the existing pricing ledger item, or add distinct ledger items for each additional cited source.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 2034,
+    "completion_tokens": 254,
+    "total_tokens": 2288
+  }
+}

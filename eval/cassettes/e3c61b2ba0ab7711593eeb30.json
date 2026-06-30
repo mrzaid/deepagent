@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_RzVFkxykK6J5MDKsc1TpZFoh",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://lobste.rs/s/d5ytly/rust_vs_go_why_they_re_better_together"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3236,
+    "completion_tokens": 45,
+    "total_tokens": 3281
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_YOQ4AMT6GjFbXrIQXpBVYB18",
+      "name": "read_reference",
+      "args": {
+        "name": "paralegal",
+        "path": "contract-draft.md"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2297,
+    "completion_tokens": 32,
+    "total_tokens": 2329
+  }
+}

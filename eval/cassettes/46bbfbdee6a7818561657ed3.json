@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_K9XWG9O68trkwdA7eHwiCTDR",
+      "name": "web_search",
+      "args": {
+        "query": "Falcon 1 launch history first flight second third fourth fifth launch dates",
+        "_type": "web_search"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2557,
+    "completion_tokens": 42,
+    "total_tokens": 2599
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "search",
+  "key": "Rust vs Go performance high concurrency network service benchmark goroutines async|5",
+  "value": [
+    {
+      "url": "https://www.reddit.com/r/golang/comments/1qw4zsv/go_vs_rust_i_was_wrong_about_performance",
+      "title": "I Was WRONG About Performance : r/golang",
+      "content": "Skip to main contentGo vs Rust: I Was WRONG About Performance : r/golang. Open menu Open navigationGo to Reddit Home. Sign UpSign up for RedditLog InLog in to Reddit. Image 1 Go to golang. # Go vs Rust: I Was WRONG About Performance. I benchmarked identical Go and Rust servers under heavy load:. Code is on GitHub if you want to run it yourself: https://github.com/huseyinbabal/benchmarks/tree/main/rust-server-vs-goserver. Image 3: Thumbnail image: How do you travel, work, stream, and play all day? How do you travel, work, stream, and play all day? Rust became better in p99, but I will do further iterations. Rust became better only on p99, but I am planning to do further iterations, but you can see the last run results. If your results are \u201cGo is faster\u201d then you are doing something wrong in Rust or the code is not doing the same workload. Also, writing the Go server needs like 5 minutes and you get 90% of Rust's performance.",
+      "score": 0.9856,
+      "raw_content": null
+    },
+    {
+      "url": "https://tech-insider.org/rust-vs-go-2026-2",
+      "title": "Rust vs Go: 40% Latency Gap in 2026 Benchmarks",
+      "content": "# Rust vs Go 2026: The Definitive Programming Language Comparison. The battle between Rust and Go has intensified in 2026 as both languages continue to carve out dominant positions in modern software development. Whether you are building cloud-native microservices, systems-level infrastructure, or high-performance web applications, choosing between Rust and Go is one of the most consequential architectural decisions you will make this year. This thorough Rust vs Go comparison breaks down every dimension \u2013 from raw performance benchmarks and memory efficiency to developer experience, ecosystem maturity, and real-world adoption \u2013 so you can make an informed choice for your next project. Go, created at Google in 2009, aimed to simplify systems programming with fast compilation and built-in concurrency. Go remains dominant in cloud-native tooling \u2013 over a significant majority of CNCF ecosystem projects are written in Go. The Stack Overflow 2026 early results confirm Rust as \u201cmost admired language\u201d for the 9th consecutive year. ## Performance Benchmarks: Rust vs Go in 2026.",
+      "score": 0.98215,
+      "raw_content": null
+    },
+    {
+      "url": "https://techoguide.medium.com/i-thought-rust-would-be-faster-than-go-the-benchmark-shocked-me-7ace2f8ba369",
+      "title": "I Thought Rust Would Be Faster Than Go \u2014 The Benchmark ...",
+      "content": "Go had significantly lower latency. Go handled requests in about 3\u20134ms average. Rust took around 8\u20139ms, with occasional spikes to 100ms+. Go",
+      "score": 0.98043,
+      "raw_content": null
+    },
+    {
+      "url": "https://users.rust-lang.org/t/why-this-rust-program-is-taking-longer-than-go-counterpart/122395",
+      "title": "Why this Rust program is taking longer than go counterpart? - help - The Rust Programming Language Forum",
+      "content": "# Why this Rust program is taking longer than go counterpart? I have some experience in writing go code and now learning rust. I know there are lot of comparison everywhere, but to benchmark both languages with very high concurrency I wrote a small piece of code in both Rust using tokio and in Golang. I does nothing just spawns bunch of goroutines and tokio tasks and exist after waiting 10 s. I set both programs to use equal threads. time.Sleep(10 * time.Second). tokio::time::sleep(Duration::new(10, 0)).await;. Is this normal to have such difference?...seems Rust is taking around ~7% more time. The observable guarantees of this program are so limited that the \"best\" - most time-efficient, since that's what OP is investigating - implementation is probably a single-threaded program with hard-coded output and a ten-second wait. If this is to be believed: unix - What do 'real', 'user' and 'sys' mean in the output of time(1)?",
+      "score": 0.97456,
+      "raw_content": null
+    },
+    {
+      "url": "https://blog.logrocket.com/go-vs-rust-when-use-rust-when-use-go",
+      "title": "Go vs. Rust: When to use Rust and when to use Go - LogRocket Blog",
+      "content": "Go Vs. Rust: When To Use Rust And When To Use Go. There are clear differences between the Go and Rust programming languages. Rust: When to use Rust and when to use Go. Michiel Mulders Michiel loves the Node.js and Go programming languages. ## See how LogRocket's Galileo AI surfaces the most severe issues for you. * Go has a stronger focus on building web APIs and small services that can scale endlessly, especially with the power of goroutines. This is Rust\u2019s most considerable edge over Go; projects that demand high performance are generally better suited for Rust. This article will compare Go and Rust, evaluating each programming language for performance, concurrency, memory management, security features, and the overall developer experience. It was created to offer an alternative to C++ that was easier to learn and code and was optimized to run on multi-core CPUs. Since then, Golang usage has been great for developers who want to take advantage of Go\u2019s concurrency.",
+      "score": 0.96817,
+      "raw_content": null
+    }
+  ]
+}

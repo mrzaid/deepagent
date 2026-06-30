@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"The report repeatedly attributes detailed treatment-research content to the single cited EOAD review (e.g., prioritization of EOAD in anti-amyloid trials, inclusion of monoclonal antibodies and \u03b2-/\u03b3-secretase modulators, tau-targeted therapies, synaptic dysfunction and neuroinflammation targets, prevention trials in presymptomatic mutation carriers), but the ledger provides only a definition and prevalence quote; there is no evidence these treatment claims are actually supported by the source.\", \"fix\": \"Remove or clearly label as speculative all treatment-direction and trial-prioritization statements that go beyond the definition/prevalence quote, or fetch additional ledger items that explicitly support each of those claims.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 2245,
+    "completion_tokens": 161,
+    "total_tokens": 2406
+  }
+}

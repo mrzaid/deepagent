@@ -1,0 +1,38 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_JZFuLIet1PovMM5HtvDDP201",
+      "name": "update_plan",
+      "args": {
+        "steps": [
+          {
+            "text": "Identify the client\u2019s goals and posture as disclosing party for this NDA clause and list key protection priorities",
+            "status": "done"
+          },
+          {
+            "text": "Analyze risks in the disclosure-to-affiliates/agents/advisors sentence from disclosing party perspective",
+            "status": "active"
+          },
+          {
+            "text": "Analyze risks in the perpetual term / no-expiration sentence from disclosing party perspective",
+            "status": "pending"
+          },
+          {
+            "text": "Draft concrete redlined clause language addressing each identified risk, with [CONFIRM WITH CLIENT] where business input is needed",
+            "status": "pending"
+          },
+          {
+            "text": "Run a quick consistency and risk checklist, then present a concise issue-spotting summary with suggested redlines and attorney-review disclaimer",
+            "status": "pending"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2275,
+    "completion_tokens": 162,
+    "total_tokens": 2437
+  }
+}

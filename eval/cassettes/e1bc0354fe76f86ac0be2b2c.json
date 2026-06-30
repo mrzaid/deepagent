@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_yzBe7jmuKma8HdRtd2c9ZwGC",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://www.pioneerpublicaffairs.com/pioneerpress/charm-industrial-achieves-the-largest-permanent-carbon-removal-delivery-of-all-time"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3147,
+    "completion_tokens": 52,
+    "total_tokens": 3199
+  }
+}

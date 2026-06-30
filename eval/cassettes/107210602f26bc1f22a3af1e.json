@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"No evidence ledger items are provided, so every substantive claim and recommendation in the report lacks explicit support from the ledger.\", \"fix\": \"Add at least one ledger item or mark that no external evidence is used and limit the report to clause-internal analysis only.\"}, {\"problem\": \"The SKILL checklist item on jurisdiction-specific rules (anti-indemnity, retainage, prompt payment, prevailing wage) is not actually addressed; the report only mentions generic local-law considerations and data protection.\", \"fix\": \"Explicitly state that anti-indemnity, retainage, prompt payment, and prevailing wage are not applicable to this NDA context or mark them as [BLANK] / [TBD].\"}, {\"problem\": \"The SKILL checklist item about NNN maintenance matrix and structural repairs not shifted to tenant is not addressed; the report instead discusses an NNN (Non-Disclosure/Non-Use/Non-Circumvention) matrix, which is a different concept.\", \"fix\": \"Either confirm that the NNN maintenance/structural repairs item is not applicable to this NDA and mark it [BLANK], or adjust the checklist mapping to the correct NNN concept required by the pipeline.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 3376,
+    "completion_tokens": 264,
+    "total_tokens": 3640
+  }
+}

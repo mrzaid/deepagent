@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_uODUHqNzFBjpBXUMjeZNJ3jS",
+      "name": "read_note",
+      "args": {
+        "name": "offer_draft"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2258,
+    "completion_tokens": 25,
+    "total_tokens": 2283
+  }
+}

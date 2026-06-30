@@ -1,0 +1,9 @@
+{
+  "content": "{\"pass\": false, \"issues\": [{\"problem\": \"The report does not address the core goal (most promising treatments for early-onset Alzheimer\u2019s); it only defines EOAD and discusses limitations.\", \"fix\": \"Add a brief, clearly labeled statement that treatment information cannot be provided due to lack of supporting evidence, explicitly acknowledging that the main goal is unmet.\"}]}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 697,
+    "completion_tokens": 84,
+    "total_tokens": 781
+  }
+}

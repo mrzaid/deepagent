@@ -1,0 +1,38 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_i49QjllrTu1NKVa33CEKBuQi",
+      "name": "update_plan",
+      "args": {
+        "steps": [
+          {
+            "text": "Clarify and summarise Climeworks\u2019 core carbon-capture method and identify one recent milestone.",
+            "status": "active"
+          },
+          {
+            "text": "Clarify and summarise Charm Industrial\u2019s core carbon-removal method and identify one recent milestone.",
+            "status": "pending"
+          },
+          {
+            "text": "Clarify and summarise Heirloom\u2019s core carbon-removal method and identify one recent milestone.",
+            "status": "pending"
+          },
+          {
+            "text": "Compare and contrast the three approaches in terms of technology, permanence, and deployment context.",
+            "status": "pending"
+          },
+          {
+            "text": "Draft a concise comparative summary answering the user\u2019s question.",
+            "status": "pending"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1219,
+    "completion_tokens": 140,
+    "total_tokens": 1359
+  }
+}

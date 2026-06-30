@@ -1,0 +1,19 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_EVYNjEtVMN0TZi1k9kwOueQf",
+      "name": "record_finding",
+      "args": {
+        "claim": "Early-onset Alzheimer\u2019s disease (EOAD) is typically defined as Alzheimer\u2019s disease with symptom onset before age 65, and it accounts for about 5\u201310% of all Alzheimer\u2019s cases.",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6538053",
+        "quote": "Early-onset AD (EOAD) is conventionally defined as AD with symptom onset before 65 years of age and accounts for approximately 5%\u201310% of all AD cases."
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2159,
+    "completion_tokens": 124,
+    "total_tokens": 2283
+  }
+}

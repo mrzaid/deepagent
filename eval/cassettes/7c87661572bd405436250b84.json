@@ -1,0 +1,19 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_a2yelG9W8rSSEuLPFB6m5QPr",
+      "name": "record_finding",
+      "args": {
+        "claim": "Tavily\u2019s pricing is based on monthly API credits, with a free Researcher plan (1,000 credits/month), several fixed paid tiers, pay\u2011as\u2011you\u2011go at $0.008 per credit, and custom enterprise plans.",
+        "source_url": "https://help.tavily.com/articles/8816424538-pricing",
+        "quote": "Tavily offers a range of pricing plans based on monthly API credits and usage needs, from a free tier to enterprise. The Free \u201cResearcher\u201d plan includes 1,000 credits/month... A Pay-As-You-Go option charges $0.008 per credit with no base fee, and an Enterprise plan provides custom pricing."
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2845,
+    "completion_tokens": 161,
+    "total_tokens": 3006
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "search",
+  "key": "Rust vs Go performance high concurrency benchmark goroutines async network server|5",
+  "value": [
+    {
+      "url": "https://www.reddit.com/r/golang/comments/1qw4zsv/go_vs_rust_i_was_wrong_about_performance",
+      "title": "Go vs Rust: I Was WRONG About Performance : r/golang - Reddit",
+      "content": "Skip to main contentGo vs Rust: I Was WRONG About Performance : r/golang. Open menu Open navigationGo to Reddit Home. Sign UpSign up for RedditLog InLog in to Reddit. Image 1 Go to golang. # Go vs Rust: I Was WRONG About Performance. I benchmarked identical Go and Rust servers under heavy load:. Code is on GitHub if you want to run it yourself: https://github.com/huseyinbabal/benchmarks/tree/main/rust-server-vs-goserver. Image 3: Thumbnail image: How do you travel, work, stream, and play all day? How do you travel, work, stream, and play all day? Rust became better in p99, but I will do further iterations. Rust became better only on p99, but I am planning to do further iterations, but you can see the last run results. If your results are \u201cGo is faster\u201d then you are doing something wrong in Rust or the code is not doing the same workload. Also, writing the Go server needs like 5 minutes and you get 90% of Rust's performance.",
+      "score": 0.98587,
+      "raw_content": null
+    },
+    {
+      "url": "https://tech-insider.org/rust-vs-go-2026-2",
+      "title": "Rust vs Go 2026: 12x Benchmark Gap and $25K Salary Divide ...",
+      "content": "# Rust vs Go 2026: The Definitive Programming Language Comparison. The battle between Rust and Go has intensified in 2026 as both languages continue to carve out dominant positions in modern software development. Whether you are building cloud-native microservices, systems-level infrastructure, or high-performance web applications, choosing between Rust and Go is one of the most consequential architectural decisions you will make this year. This thorough Rust vs Go comparison breaks down every dimension \u2013 from raw performance benchmarks and memory efficiency to developer experience, ecosystem maturity, and real-world adoption \u2013 so you can make an informed choice for your next project. Go, created at Google in 2009, aimed to simplify systems programming with fast compilation and built-in concurrency. Go remains dominant in cloud-native tooling \u2013 over a significant majority of CNCF ecosystem projects are written in Go. The Stack Overflow 2026 early results confirm Rust as \u201cmost admired language\u201d for the 9th consecutive year. ## Performance Benchmarks: Rust vs Go in 2026.",
+      "score": 0.98398,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CsKNTwS9kic",
+      "title": "Rust vs. Go (Golang): Performance 2025",
+      "content": "Rust vs. Go (Golang): Performance 2025\nAnton Putra\n119000 subscribers\n1363 likes\n46890 views\n8 Feb 2025\n\ud83d\udc68\u200d\ud83d\udcbc\ud83d\udcc8 Mentorship/On-the-Job Support/Consulting - https://calendly.com/antonputra/youtube or me@antonputra.com\n\n\u25ac\u25ac\u25ac\u25ac\u25ac Experience & Location \ud83d\udcbc \u25ac\u25ac\u25ac\u25ac\u25ac\n\u25ba  I\u2019m a Senior Software Engineer at Juniper Networks (13+ years of experience)\n\u25ba  Located in San Francisco Bay Area, CA (US citizen)\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac Connect with me \ud83d\udc4b \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\u25ba  LinkedIn: https://www.linkedin.com/in/anton-putra\n\u25ba  Twitter/X: https://twitter.com/antonvputra\n\u25ba  GitHub: https://github.com/antonputra\n\u25ba  Email: me@antonputra.com\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac Source Code \ud83d\udcda \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\u25ba Original Source Code: https://github.com/antonputra/tutorials/tree/243/lessons/243\n\n#rust #golang #devops\n283 comments\n",
+      "score": 0.97601,
+      "raw_content": null
+    },
+    {
+      "url": "https://stackoverflow.com/questions/65027589/rust-vs-go-concurrent-webserver-why-is-rust-slow-here",
+      "title": "Rust vs Go concurrent webserver, why is Rust slow here?",
+      "content": "Go web server doing the same was 10 times faster. The Go standard library has a well revised and optimized http implementation. Threads will",
+      "score": 0.97416,
+      "raw_content": null
+    },
+    {
+      "url": "https://blog.everpuredata.com/purely-technical/concurrent-programming-case-study-comparing-python-go-and-rust",
+      "title": "Concurrent Programming Case Study: Comparing Python, Go, and ...",
+      "content": "This article compares writing an example program using Python multiprocessing, Go, and Rust. Recently a FlashBlade\u00ae customer had a challenge with listing all custom metadata on objects in a large bucket. A standard S3 LIST request does not return custom metadata; therefore, the task requires also issuing a HEAD request for *each* object. The FlashBlade backend is an all-flash object store designed for high throughput *and* metadata performance, so the question naturally became how to better utilize the storage backend to complete the requests faster. By rewriting the code in a compiled language with more concurrency, the performance improved at least **50x** compared to the naive Python implementation and **4x** versus the parallelized Python version. * The performance gain (requests/sec) of Go and Rust relative to Python. * How to use FlashBlade as an S3 endpoint when coding in Python, Go, or Rust. One of the key challenges with this concurrency example is the need to scale to billions of objects in a large bucket.",
+      "score": 0.9715,
+      "raw_content": null
+    }
+  ]
+}

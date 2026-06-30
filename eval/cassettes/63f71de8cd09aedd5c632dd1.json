@@ -1,0 +1,38 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_vvxu983bfgrJpLwCMOOkURmF",
+      "name": "update_plan",
+      "args": {
+        "steps": [
+          {
+            "text": "Review ADS Documents reference to extract the specific checklist and structure for ADS standard employment offer letters, including fixed defaults and Pakistan labour law notes",
+            "status": "active"
+          },
+          {
+            "text": "List all required variable fields for this offer (role, candidate name, start date, compensation, reporting line, etc.) and mark missing ones as [BLANK] per instructions",
+            "status": "pending"
+          },
+          {
+            "text": "Draft the full ADS standard employment offer letter for a Data Analyst role, applying ADS fixed defaults and Pakistan labour law, with placeholders for unspecified variables",
+            "status": "pending"
+          },
+          {
+            "text": "Review the draft against the ADS checklist (structure, mandatory clauses, Pakistan labour law compliance points, and required placeholders) and ensure the attorney-review disclaimer is included",
+            "status": "pending"
+          },
+          {
+            "text": "Finalize the polished offer letter text ready for attorney review",
+            "status": "pending"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2119,
+    "completion_tokens": 188,
+    "total_tokens": 2307
+  }
+}

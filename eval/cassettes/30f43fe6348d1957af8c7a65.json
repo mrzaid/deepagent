@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_MHK4PsE61ZiwiC2zwuzjEAAX",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://en.wikipedia.org/wiki/Cold_fusion"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1599,
+    "completion_tokens": 32,
+    "total_tokens": 1631
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_EzcabPqAK84ICCfFjdZrdt9W",
+      "name": "read_reference",
+      "args": {
+        "name": "paralegal",
+        "path": "references/lease-amendment.md"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1890,
+    "completion_tokens": 35,
+    "total_tokens": 1925
+  }
+}

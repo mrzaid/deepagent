@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_gbov0peMhFEeQLUEuybw0GLN",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://climeworks.com/news/2024-year-in-review"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1688,
+    "completion_tokens": 35,
+    "total_tokens": 1723
+  }
+}

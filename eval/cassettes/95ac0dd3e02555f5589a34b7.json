@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_SxhA5aIWQM2gUhTyR3F0JBRw",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://docs.tavily.com/faq/faq"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2264,
+    "completion_tokens": 33,
+    "total_tokens": 2297
+  }
+}

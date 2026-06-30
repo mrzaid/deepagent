@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_NsqX7u5Xzccz9sOEKgzvPaW0",
+      "name": "read_reference",
+      "args": {
+        "name": "paralegal",
+        "path": "ads-documents.md"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2272,
+    "completion_tokens": 32,
+    "total_tokens": 2304
+  }
+}

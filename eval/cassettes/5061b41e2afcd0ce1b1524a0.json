@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_mnXv8M2zOI8A499iLbY6HlTE",
+      "name": "write_note",
+      "args": {
+        "name": "offer_draft_outline",
+        "content": "ADS Employment Offer Letter \u2013 Sara Khan, Data Analyst\n\nSections to include per ADS Documents + contract-draft pipeline, adapted for Pakistan:\n1. Letterhead and date\n2. Addressee and subject line\n3. Position and reporting line (role fixed: Data Analyst; reporting: [BLANK])\n4. Start date and work location (start date: [BLANK]; location: Pakistan, city [BLANK])\n5. Employment status and probation (full-time, probation per ADS default [BLANK] months)\n6. Duties and responsibilities (high-level, role-based)\n7. Working hours and place of work (ADS default schedule; overtime per Pakistan law reference)\n8. Compensation and benefits (salary [BLANK], pay frequency ADS default, statutory benefits under Pakistan labour law, bonuses [BLANK])\n9. Taxes and deductions (Pakistan tax and statutory deductions language)\n10. Leave entitlements (annual leave, sick leave, public holidays per Pakistan law and ADS defaults)\n11. Confidentiality and IP ownership (standard ADS language placeholders)\n12. Outside employment and conflict of interest\n13. Company policies and code of conduct\n14. Termination and notice (Pakistan law minimums + ADS defaults; notice period [BLANK])\n15. Data protection and consent\n16. Entire offer, conditions precedent (background checks [BLANK if applicable])\n17. Acceptance instructions and signature blocks (for Company and Sara Khan)\n18. Attorney-review disclaimer (per paralegal skill requirements)\n\nNext: draft full text using this outline, keeping all unspecified variables as [BLANK] and aligning with Pakistan labour law in generic, non-jurisdiction-specific terms without citing specific statutes by number (since this is an internal template)."
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2286,
+    "completion_tokens": 398,
+    "total_tokens": 2684
+  }
+}

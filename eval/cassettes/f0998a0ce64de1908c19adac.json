@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_be4SJnV4vbNIwv7eQmAGzrxg",
+      "name": "web_search",
+      "args": {
+        "query": "Charm Industrial milestone 2024 tonnes carbon removal delivered",
+        "topn": 5
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2738,
+    "completion_tokens": 37,
+    "total_tokens": 2775
+  }
+}

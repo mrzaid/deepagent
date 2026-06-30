@@ -1,0 +1,9 @@
+{
+  "content": "{\"relevance\":5,\"grounding\":4,\"completeness\":5,\"coherence\":5,\"comment\":\"Strong, well-structured comparison that answers the goal; however, some specific quantitative and descriptive details (e.g., Mammoth capacity, Gen 3 energy reduction, Tracy facility timing/claims) go beyond what is explicitly verifiable from the two recorded findings alone.\"}",
+  "tool_calls": [],
+  "usage": {
+    "prompt_tokens": 1357,
+    "completion_tokens": 87,
+    "total_tokens": 1444
+  }
+}

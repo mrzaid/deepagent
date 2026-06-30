@@ -1,0 +1,38 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_6ItZCqWM8DEBnKquOPGQ6MZg",
+      "name": "update_plan",
+      "args": {
+        "steps": [
+          {
+            "text": "Review the contract-draft pipeline reference and extract key requirements for a mutual NDA (parties, purpose, confidentiality terms, exclusions, term, governing law, remedies, boilerplate, and attorney-review disclaimer).",
+            "status": "active"
+          },
+          {
+            "text": "Outline the structure and headings of the mutual non-disclosure agreement tailored to Acme Corp and Beta LLC, including Washington governing law and evaluation of a potential partnership.",
+            "status": "pending"
+          },
+          {
+            "text": "Draft the full mutual NDA text with placeholders [BLANK] for all unknown specifics (effective date, addresses, signatures, etc.), ensuring clear mutual obligations and standard NDA clauses.",
+            "status": "pending"
+          },
+          {
+            "text": "Review the draft against the contract-draft checklist (clarity, consistency, defined terms, placeholders, jurisdiction, and attorney-review disclaimer) and revise as needed.",
+            "status": "pending"
+          },
+          {
+            "text": "Prepare the final attorney-review-ready NDA draft in markdown format for the user.",
+            "status": "pending"
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1968,
+    "completion_tokens": 209,
+    "total_tokens": 2177
+  }
+}

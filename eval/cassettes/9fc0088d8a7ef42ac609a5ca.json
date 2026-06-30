@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_Og2i9oSgqS8FzkYHZf7Ayt3c",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://blog.everpuredata.com/purely-technical/concurrent-programming-case-study-comparing-python-go-and-rust"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2571,
+    "completion_tokens": 48,
+    "total_tokens": 2619
+  }
+}

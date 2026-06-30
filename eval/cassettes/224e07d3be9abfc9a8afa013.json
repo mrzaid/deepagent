@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_JJtzN0304gkZuKMKLwbBJ6mz",
+      "name": "read_reference",
+      "args": {
+        "name": "paralegal",
+        "path": "references/nda-review.md"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1911,
+    "completion_tokens": 33,
+    "total_tokens": 1944
+  }
+}

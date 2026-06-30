@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_FFArUb5VkPRdln7XLEj9BxC7",
+      "name": "web_search",
+      "args": {
+        "query": "Anthropic Claude 3.5 context window tokens official documentation",
+        "commentary": true
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2588,
+    "completion_tokens": 39,
+    "total_tokens": 2627
+  }
+}

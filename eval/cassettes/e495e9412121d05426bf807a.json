@@ -1,0 +1,18 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_mQYgLN67XhmCGO6HGfC442Vw",
+      "name": "web_search",
+      "args": {
+        "query": "OpenAI GPT-4.1 context window size official documentation",
+        "commentary": true
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2007,
+    "completion_tokens": 39,
+    "total_tokens": 2046
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content": null,
+  "tool_calls": [
+    {
+      "id": "call_OAPK6M8bgjRMkFhMuxMCLGVZ",
+      "name": "fetch_url",
+      "args": {
+        "url": "https://www.heirloomcarbon.com/technology"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3484,
+    "completion_tokens": 32,
+    "total_tokens": 3516
+  }
+}

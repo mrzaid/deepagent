@@ -1,0 +1,8 @@
+{
+  "kind": "fetch",
+  "key": "https://ritik-chopra28.medium.com/rust-async-vs-go-goroutines-my-side-by-side-benchmark-of-3-real-workloads-1f1d31b08718",
+  "value": [
+    "Rust Async vs. Go Goroutines: My Side-by-Side Benchmark of 3 Real Workloads",
+    "Member-only story\nRust Async vs. Go Goroutines: My Side-by-Side Benchmark of 3 Real Workloads\nI built the same high-concurrency applications in both languages \u2014 here\u2019s what 1 million concurrent tasks revealed about performance, memory usage, and developer experience\n\u201cRust is faster but Go is simpler\u201d has become the conventional wisdom when comparing these two systems programming languages. But what does that actually mean when you\u2019re building real applications that need to handle thousands of concurrent operations?\nI spent three months building identical applications in both languages to answer this question definitively. The benchmarks covered three real-world scenarios: a WebSocket chat server handling 100,000 concurrent connections, a data processing pipeline with 1 million concurrent tasks, and a microservice handling high-frequency API requests.\nThe results challenged my assumptions about both languages. While Rust\u2019s async runtime delivered superior raw performance, Go\u2019s goroutines provided more predictable behavior under extreme load. Most surprisingly, the performance gap narrowed significantly when I optimized the Go implementations with production-ready techniques."
+  ]
+}

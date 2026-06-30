@@ -1,0 +1,41 @@
+{
+  "kind": "search",
+  "key": "Context windows - Claude Platform Docs|5",
+  "value": [
+    {
+      "url": "https://platform.claude.com/docs/en/about-claude/glossary",
+      "title": "Glossary - Claude Platform Docs",
+      "content": "The \"context window\" refers to the amount of text a language model can look back on and reference when generating new text. This is different from the large corpus of data the language model was trained on, and instead represents a \"working memory\" for the model. Fine-tuning is the process of further training a pretrained language model using additional data. Fine-tuning can be useful for adapting a language model to a specific domain, task, or writing style, but it requires careful consideration of the fine-tuning data and the potential impact on the model's performance and biases. Latency, in the context of generative AI and large language models, refers to the time it takes for the model to respond to a given prompt. Claude is a conversational assistant based on a large language model that has been fine-tuned and trained using RLHF to be more helpful, honest, and harmless.",
+      "score": 0.88705814,
+      "raw_content": null
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows?ref=toolarium.ru",
+      "title": "Context windows - Claude Platform Docs",
+      "content": "For more specialized needs, context editing offers additional strategies like tool result clearing and thinking block clearing. This is different from the large corpus of data the language model was trained on, and instead represents a \"working memory\" for the model. ## \ue09a The context window with extended thinking. When using extended thinking, all input and output tokens, including the tokens used for thinking, count toward the context window limit, with a few nuances in multi-turn situations. The diagram below demonstrates the specialized token management when extended thinking is enabled:. Context window diagram with extended thinking and tool use. Context window diagram with extended thinking. You can read more about the context window and extended thinking in the extended thinking guide. ## \ue09a The context window with extended thinking and tool use. The diagram below illustrates the context window token management when combining extended thinking with tool use:. For more information about using tools with extended thinking, see the extended thinking guide.",
+      "score": 0.8319231,
+      "raw_content": null
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+      "title": "Context windows - Claude Platform Docs",
+      "content": "We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. This is different from the large corpus of data the language model was trained on, and instead represents a \"working memory\" for the model. ## \ue09a The context window with extended thinking and tool use. When using extended thinking, all input and output tokens, including the tokens used for thinking, count toward the context window limit, with a few nuances in multi-turn situations. The diagram below demonstrates the specialized token management when extended thinking is enabled:. Context window diagram with extended thinking and tool use. Context window diagram with extended thinking. You can read more about the context window and extended thinking in the extended thinking guide. ## \ue09a The context window with extended thinking. The diagram below illustrates the context window token management when combining extended thinking with tool use:. For more information about using tools with extended thinking, see the extended thinking guide.",
+      "score": 0.8138313,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.anthropic.com/engineering/advanced-tool-use",
+      "title": "Introducing advanced tool use on the Claude Developer Platform",
+      "content": "# Introducing advanced tool use on the Claude Developer Platform \\ Anthropic. To [build effective agents](https://www.anthropic.com/research/building-effective-agents), they need to work with unlimited tool libraries without stuffing every definition into context upfront. Our blog article on using [code execution with MCP](https://www.anthropic.com/engineering/code-execution-with-mcp) discussed how tool results and definitions can sometimes consume 50,000+ tokens before an agent reads a request. For example,**[Claude for Excel](https://www.claude.com/claude-for-excel)**uses Programmatic Tool Calling to read and modify spreadsheets with thousands of rows without overloading the model\u2019s context window. Instead of Claude requesting tools one at a time with each result being returned to its context, Claude writes code that calls multiple tools, processes their outputs, and controls what information actually enters its context window. *   [D ocumentation](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool) and [cookbook](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/tool_search_with_embeddings.ipynb) for Tool Search Tool. *   [Documentation](https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling) and [cookbook](https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/programmatic_tool_calling_ptc.ipynb) for Programmatic Tool Calling. *   [Documentation](https://platform.claude.com/docs/en/agents-and-tools/tool-use/implement-tool-use#providing-tool-use-examples) for Tool Use Examples. *   [Mythos](https://www.anthropic.com/claude/mythos). *   [Fable](https://www.anthropic.com/claude/fable). *   [Opus](https://www.anthropic.com/claude/opus). *   [Sonnet](https://www.anthropic.com/claude/sonnet). *   [Haiku](https://www.anthropic.com/claude/haiku). *   [Inside Claude Code](https://www.anthropic.com/product/claude-code). *   [Inside Claude Enterprise](https://www.anthropic.com/product/enterprise). *   [Inside Claude Security](https://www.anthropic.com/product/security). *   [Claude\u2019s Constitution](https://www.anthropic.com/constitution).",
+      "score": 0.7128128,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.damiangalarza.com/posts/2025-12-08-understanding-claude-code-context-window",
+      "title": "Claude Code Context Window: What It Is and How to Manage It",
+      "content": "# Claude Code Context Window: What It Is, How /context Works, and How to Manage It. claude-code ai-coding-tools developer-productivity workflow context-management. I\u2019ve been using Claude Code for some time now, and as I discussed in How I Use Claude Code: My Complete Development Workflow, using AI coding tools effectively is a skill in itself. In this post we\u2019ll look at how you can make the most of your available context window in Claude Code, as well as some common pitfalls to avoid. > **Short answer:** Claude Code\u2019s context window is the working memory available to your current session. ## What Is Claude Code\u2019s Context Window? Before we can begin to try to optimize our developer workflow we need to get an understanding of what the context window is and how it gets filled. When people ask about Claude Code context window size, the practical answer is: it depends on the model you\u2019re using and how much of that window is already taken by tool definitions, memory, and conversation history.",
+      "score": 0.68874115,
+      "raw_content": null
+    }
+  ]
+}
