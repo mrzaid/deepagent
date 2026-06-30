@@ -34,5 +34,3 @@ Thumbs.db
 # and editable diagram sources all live here. (architecture.md stays committed.)
 archive/
 
-# third-party reference app (kept local, not part of the submission)
-/reference/

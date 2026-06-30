@@ -30,9 +30,24 @@ it hasn't earned.
 | 1 | **Source code** (public repo, clear structure, run instructions) | this repo — structure at the bottom, run steps in [Quickstart](#quickstart) |
 | 2 | **README** (how it works, key decisions, more time) | this file |
 | 3 | **Eval harness + results** | `python -m eval run`; code in `eval/`, results in `eval/results/`, scorecard [below](#evaluation-harness-eval) |
-| 4 | **Example run** (a real task, start → finish) | [`examples/tavily-api/`](#example-run) — report + full trace + state |
+| 4 | **Example run** (a real task, start → finish) | [`examples/legal-nda-draft/`](#example-run) — a drafted NDA + attorney-review `.docx` (+ a research example in `examples/tavily-api/`) |
 | 5 | **Short video (3–5 min)** | **▶ <ADD YOUR VIDEO LINK HERE>** |
 | 6 | **Build session logs** (raw, unedited) | [`build_sessions/`](#) |
+
+---
+
+## Architecture & flow
+
+**Component architecture** — how a goal flows through the loop, tools, the
+fresh-context critic, memory/compaction, the eval harness, and the React UI:
+
+![deepagent component architecture](architecture.drawio.png)
+
+**Control flow** — one pass through the loop (plan → act → observe → adapt), with the
+budget guards, stall/cadence nudges, the critic gate, the gated skill branch, and the
+recovery paths (kill/resume, force-synthesis):
+
+![deepagent control flow](flow-diagram.drawio.png)
 
 ---
 
@@ -269,25 +284,38 @@ Every run writes artifacts to `runs/<run_id>/`: `state.json`, `trace.jsonl`,
 
 ## Example run
 
-A real task, start to finish, committed under [`examples/tavily-api/`](examples/tavily-api) —
-the fault-injection task, where the **first `fetch_url` is forced to fail**:
+The headline example is a **drafted mutual NDA** — produced by the `paralegal` skill —
+committed under [`examples/legal-nda-draft/`](examples/legal-nda-draft). It's fully
+self-contained (every fact is in the task):
 
-> *What is the Tavily API, what are its main features, and how is it priced?*
+> *Draft a mutual non-disclosure agreement between Acme Corp and Beta LLC, governed by
+> Washington law, for evaluating a potential partnership. Use only the facts given; mark
+> every unknown field as `[BLANK]`. Include the attorney-review disclaimer.*
 
-- **`report.md`** — the final cited report.
+- **`report.md`** — the drafted NDA.
+- **`*.docx`** — the attorney-review document `export_docx` rendered.
 - **`trace.jsonl`** — every event, the same stream the UI renders and the eval reads.
-- **`state.json`** — the final structured state (plan, findings, sources).
+- **`state.json`** — the final structured state.
 
-What to look at (visible in the trace): the **first fetch fails** and becomes an `ERROR`
-observation, and the agent **re-searches and recovers**; search → fetch → record cycles
-produce grounded findings; and the **fresh-context critic in action** — two `verify_failed`
-events where the cold reviewer rejected the draft, then the agent revised and finished
-(`verify_retries = 2`). Replay it as a readable timeline:
+What to look at (visible in the trace): `skill_loaded` (it routed to the `paralegal`
+skill) → `reference_read` pulling in the **contract-draft** pipeline just-in-time →
+`update_plan` from that guide → the draft using the **given party names** while marking
+every unknown field **`[BLANK]`** rather than inventing it (no-hallucination) →
+mandatory clauses (governing law, confidentiality, term, IP) present → and the
+**fresh-context critic** enforcing the skill's validation checklist
+(`verify_failed → revise → verify_result`). The committed `.docx` is that draft
+rendered through `export_docx` (which also force-prepends the disclaimer). No web sources
+are cited — by design (`finish` is mode-aware for skills); anti-fabrication still holds,
+and the skill checklist + critic stand in for web grounding. Replay it offline:
 
 ```bash
-LLM_MODE=replay python -m eval run --task tavily-api   # regenerates runs/eval-tavily-api/
-python -m agent trace eval-tavily-api                  # render it step by step
+LLM_MODE=replay python -m eval run --task legal-nda-draft   # regenerates runs/eval-legal-nda-draft/
+python -m agent trace eval-legal-nda-draft                  # render it step by step
 ```
+
+A **research** example is also committed at [`examples/tavily-api/`](examples/tavily-api)
+— the fault-injection task (first `fetch_url` is forced to fail, the agent re-searches
+and recovers, critic fires twice). Replay: `LLM_MODE=replay python -m eval run --task tavily-api`.
 
 ---
 
