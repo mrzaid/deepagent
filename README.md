@@ -23,6 +23,19 @@ it hasn't earned.
 
 ---
 
+## Deliverables — where each lives
+
+| # | Deliverable | Where |
+|---|-------------|-------|
+| 1 | **Source code** (public repo, clear structure, run instructions) | this repo — structure at the bottom, run steps in [Quickstart](#quickstart) |
+| 2 | **README** (how it works, key decisions, more time) | this file |
+| 3 | **Eval harness + results** | `python -m eval run`; code in `eval/`, results in `eval/results/`, scorecard [below](#evaluation-harness-eval) |
+| 4 | **Example run** (a real task, start → finish) | [`examples/tavily-api/`](#example-run) — report + full trace + state |
+| 5 | **Short video (3–5 min)** | **▶ <ADD YOUR VIDEO LINK HERE>** |
+| 6 | **Build session logs** (raw, unedited) | [`build_sessions/`](#) |
+
+---
+
 ## How it works
 
 ### The loop in one picture
@@ -254,6 +267,30 @@ Every run writes artifacts to `runs/<run_id>/`: `state.json`, `trace.jsonl`,
 
 ---
 
+## Example run
+
+A real task, start to finish, committed under [`examples/tavily-api/`](examples/tavily-api) —
+the fault-injection task, where the **first `fetch_url` is forced to fail**:
+
+> *What is the Tavily API, what are its main features, and how is it priced?*
+
+- **`report.md`** — the final cited report.
+- **`trace.jsonl`** — every event, the same stream the UI renders and the eval reads.
+- **`state.json`** — the final structured state (plan, findings, sources).
+
+What to look at (visible in the trace): the **first fetch fails** and becomes an `ERROR`
+observation, and the agent **re-searches and recovers**; search → fetch → record cycles
+produce grounded findings; and the **fresh-context critic in action** — two `verify_failed`
+events where the cold reviewer rejected the draft, then the agent revised and finished
+(`verify_retries = 2`). Replay it as a readable timeline:
+
+```bash
+LLM_MODE=replay python -m eval run --task tavily-api   # regenerates runs/eval-tavily-api/
+python -m agent trace eval-tavily-api                  # render it step by step
+```
+
+---
+
 ## Evaluation harness (`eval/`)
 
 `python -m eval run` runs the agent on a fixed task set and scores each run three
@@ -400,6 +437,30 @@ complexity, so I chose **not** to build:
 This restraint is a deliberate choice, not an omission — a finished, narrow agent
 beats an ambitious half-built one.
 
+### How I spent my time (and what I traded off)
+
+Roughly in priority order, matching where the brief puts the weight:
+
+- **Most of it on the loop + robustness** (40% of the grade): the control loop,
+  bounded state-as-context + compaction, the grounding gates, the fresh-context
+  critic, budgets, stall/cadence nudges, resume/reorientation, and the retry/backoff
+  + schema-validated I/O. This is where long runs live or die.
+- **A solid chunk on the eval harness** (30%): the cassette record/replay layer (so
+  it runs offline and reproducibly), deterministic checks, trajectory metrics, the
+  LLM judge — and actually *using* it, which is what surfaced the model and
+  citation-completeness findings.
+- **Deliberately little on the UI:** the React+TS SPA is a thin observability layer
+  over the trace, not a product. The CLI is the primary harness.
+- **The legal skill is an optional extension**, gated off by default so it never
+  touches the research loop or its cassettes.
+
+**Trade-offs I made on purpose:** depth on reliability + eval over breadth of
+features; single-threaded over multi-agent; grounding enforced in code over trusting
+prompts; and I left the *distinct-sources `finish` gate* and the read-only sub-agent
+unbuilt because the eval shows the first is the higher-value next step. If I had the
+marginal hour back, I'd spend it there and on tuning the loop for a reasoning model —
+because the eval, not a hunch, says those are the live weaknesses.
+
 ---
 
 ## What I'd do with more time
@@ -528,8 +589,9 @@ eval/
   cassettes/ results/                       committed: offline replay + scorecard
 skills/            paralegal skill: SKILL.md router + 7 reference pipelines
 tests/             core-loop + robustness + skills tests (mocked LLM + network)
-examples/          a real run committed for inspection
-runs/              per-run state.json + trace.jsonl + pages/ + notes/
+examples/          a real run committed for inspection (the Example Run deliverable)
+runs/              per-run state.json + trace.jsonl + pages/ + notes/ (git-ignored)
+build_sessions/    raw, unedited AI build-session logs (how this was built)
 ```
 
 ---
