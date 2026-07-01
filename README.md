@@ -30,10 +30,9 @@ it hasn't earned.
 | 1 | **Source code** (public repo, clear structure, run instructions) | this repo — structure at the bottom, run steps in [Quickstart](#quickstart) |
 | 2 | **README** (how it works, key decisions, more time) | this file |
 | 3 | **Eval harness + results** | `python -m eval run`; code in `eval/`, results in `eval/results/`, scorecard [below](#evaluation-harness-eval) |
-| 4 | **Example run** (a real task, start → finish) | [`examples/legal-nda-draft/`](#example-run) — a drafted NDA + attorney-review `.docx` (+ a research example in `examples/tavily-api/`) |
-| 5 | **Short video (3–5 min)** | **▶ <ADD YOUR VIDEO LINK HERE>** |
+| 4 | **Example run** (a real task, start → finish) | [`examples/legal-nda-draft/`](#example-run) — a drafted NDA + attorney-review `.docx` (+ a research example in `examples/tavily-api/`) 
+| 5 | **Short video (3–5 min)** | [Architecture Walkthrough](https://drive.google.com/file/d/1kwvwMDYLne0S4LLZ1Fl7j2i3WvzdPVG0/view?usp=sharing) |
 | 6 | **Build session logs** (raw, unedited) | [`build_sessions/`](#) |
-
 ---
 
 ## Architecture & flow
